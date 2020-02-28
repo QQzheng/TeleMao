@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  Signal
+
+  Created by m c on 2020/2/26.
+  Copyright © 2020 Open Whisper Systems. All rights reserved.
+*/
+"NSAppleMusicUsageDescription" = "Tmao needs to use Apple Music to play media attachments";
+"NSCameraUsageDescription" = "Tmao uses your camera to take photos and for video calls";
+"NSContactsUsageDescription" = "Tmao  uses your contacts to find users you know, We do not store your contacts on the server";
+"NSFaceIDUsageDescription" = "Tmao screen lock uses Face ID";
+"NSLocationWhenInUseUsageDescription" = "Tmao needs access to your location in order to share your current location";
+"NSMicrophoneUsageDescription" = "Tmao needs access to your microphone to make and receive phone calls and record voice messages";
+"NSPhotoLibraryAddUsageDescription" = "Tmao will save photos to your library";
+"NSPhotoLibraryUsageDescription" = "Tmao will let you choose which photos from your library to send";

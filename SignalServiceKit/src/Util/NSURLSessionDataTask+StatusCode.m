@@ -1,0 +1,15 @@
+
+#import "NSURLSessionDataTask+StatusCode.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@implementation NSURLSessionTask (StatusCode)
+
+- (long)statusCode {
+    NSHTTPURLResponse *response = (NSHTTPURLResponse *)self.response;
+    return response.statusCode;
+}
+
+@end
+
+NS_ASSUME_NONNULL_END

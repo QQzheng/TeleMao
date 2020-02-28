@@ -1,0 +1,26 @@
+
+NS_ASSUME_NONNULL_BEGIN
+
+//#ifdef DEBUG
+//
+//@class CNContact;
+//
+//@interface DebugContactsUtils : NSObject
+//
+//+ (NSString *)randomPhoneNumber;
+//
+//+ (void)createRandomContacts:(NSUInteger)count;
+//
+//+ (void)createRandomContacts:(NSUInteger)count
+//              contactHandler:
+//                  (nullable void (^)(CNContact *_Nonnull contact, NSUInteger idx, BOOL *_Nonnull stop))contactHandler;
+//
+//+ (void)deleteAllContacts;
+//
+//+ (void)deleteAllRandomContacts;
+//
+//@end
+//
+//#endif
+
+NS_ASSUME_NONNULL_END

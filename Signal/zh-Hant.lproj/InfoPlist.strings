@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  Signal
+
+  Created by m c on 2020/2/26.
+  Copyright © 2020 Open Whisper Systems. All rights reserved.
+*/
+"NSAppleMusicUsageDescription" = "Tmao需要使用Apple Music播放媒體附件";
+"NSCameraUsageDescription" = "Tmao使用您的相機拍照和進行視頻通話";
+"NSContactsUsageDescription" = "Tmao使用您的聯繫人查找您認識的用戶,我們不會將您的聯繫人存儲在服務器上";
+"NSFaceIDUsageDescription" = "Tmao的屏幕鎖使用人臉ID";
+"NSLocationWhenInUseUsageDescription" = "Tmao需要訪問您的位置才能共享您的當前位置";
+"NSMicrophoneUsageDescription" = "Tmao需要訪問您的麥克風才能撥打和接聽電話並記錄語音消息";
+"NSPhotoLibraryAddUsageDescription" = "Tmao會將照片保存到您的照片庫中";
+"NSPhotoLibraryUsageDescription" = "Tmao將讓您選擇要從圖庫中發送哪些照片";

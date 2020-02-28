@@ -1,0 +1,8 @@
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface OWSLabel : UILabel
+
+@end
+
+NS_ASSUME_NONNULL_END
