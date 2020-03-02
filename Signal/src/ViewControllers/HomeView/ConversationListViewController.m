@@ -633,6 +633,11 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
 
 - (void)updateBarButtonItems
 {
+    
+    // lcy 20200302 对话页导航栏修改
+    return;
+    
+    
     if (self.conversationListMode != ConversationListMode_Inbox) {
         return;
     }

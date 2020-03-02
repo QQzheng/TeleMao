@@ -7,8 +7,8 @@ class ComposeViewController: OWSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        title = NSLocalizedString("XXGJUSTHHANQK10", comment: "Title for the compose view.")
+        // lcy 20200302 通讯录标题修改
+        title = "通讯录"
 
         recipientPicker.allowsSelectingUnregisteredPhoneNumbers = false
         recipientPicker.shouldShowInvites = true
@@ -38,8 +38,17 @@ class ComposeViewController: OWSViewController {
     }
 
     func newConversation(thread: TSThread) {
-        SignalApp.shared().presentConversation(for: thread, action: .compose, animated: false)
-        presentingViewController?.dismiss(animated: true)
+        /**
+         lcy 20200302 通讯录点击跳转到对话页面跳转修改
+         */
+        DispatchQueue.main.async {
+            let vc = ConversationViewController()
+            vc.configure(for: thread, action: .compose, focusMessageId: nil)
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+//        SignalApp.shared().presentConversation(for: thread, action: .compose, animated: false)
+//        presentingViewController?.dismiss(animated: true)
     }
 }
 

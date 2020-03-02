@@ -135,6 +135,7 @@ NS_ASSUME_NONNULL_BEGIN
     }
 
     DispatchMainThreadSafe(^{
+        // lcy 20200302 这个if的意思是，如果当前有正在对话的对话框
         if (self.conversationSplitViewController.visibleThread) {
             if ([self.conversationSplitViewController.visibleThread.uniqueId isEqualToString:thread.uniqueId]) {
                 [self.conversationSplitViewController.selectedConversationViewController popKeyBoard];
@@ -207,13 +208,47 @@ NS_ASSUME_NONNULL_BEGIN
 //回到首页
 - (void)showConversationSplitView
 {
-    ConversationSplitViewController *splitViewController = [ConversationSplitViewController new];
-
+    //版本1.1 -------新UI
+    UITabBarController *tabbarVC = [[UITabBarController alloc] init];
+    tabbarVC.tabBar.translucent = NO;
+    tabbarVC.tabBar.tintColor = UIColor.blackColor;
+    [tabbarVC.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.blackColor} forState:UIControlStateNormal];
+    [tabbarVC.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.blackColor} forState:UIControlStateSelected];
+    
+    // lcy 20200302 设置root修改成这样了
+    ConversationSplitViewController *viewController0 = [ConversationSplitViewController new];    viewController0.tabBarItem.title = @"对话";
+    viewController0.tabBarItem.image = [[UIImage imageNamed:@"conversation"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    viewController0.tabBarItem.selectedImage = [[UIImage imageNamed:@"conversation_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [tabbarVC addChildViewController:viewController0];
+    
+    ComposeViewController *viewController1 = [ComposeViewController new];
+    viewController1.tabBarItem.title = @"通讯录";
+    viewController1.tabBarItem.image = [[UIImage imageNamed:@"list"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    viewController1.tabBarItem.selectedImage = [[UIImage imageNamed:@"list_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [tabbarVC addChildViewController:[[OWSNavigationController alloc] initWithRootViewController:viewController1]];
+    
+    AppSettingsViewController *viewController2 = [AppSettingsViewController new];
+    viewController2.tabBarItem.title = @"我";
+    viewController2.tabBarItem.image = [[UIImage imageNamed:@"me"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    viewController2.tabBarItem.selectedImage = [[UIImage imageNamed:@"me_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [tabbarVC addChildViewController:[[OWSNavigationController alloc] initWithRootViewController:viewController2]];
+    
+        
     AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    appDelegate.window.rootViewController = splitViewController;
-
-    self.conversationSplitViewController = splitViewController;
+    appDelegate.window.rootViewController = tabbarVC;
+    self.conversationSplitViewController = viewController0;
     self.onboardingController = nil;
+    
+    
+    //版本1.1 -------侧滑UI
+
+//    ConversationSplitViewController *splitViewController = [ConversationSplitViewController new];
+//
+//    AppDelegate *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+//    appDelegate.window.rootViewController = splitViewController;
+//
+//    self.conversationSplitViewController = splitViewController;
+//    self.onboardingController = nil;
 }
 
 - (void)showOnboardingView
