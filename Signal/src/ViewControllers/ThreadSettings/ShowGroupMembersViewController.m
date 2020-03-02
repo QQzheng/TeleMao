@@ -141,7 +141,10 @@ NS_ASSUME_NONNULL_BEGIN
     }
 
     NSMutableSet *memberAddresses = [self.memberAddresses mutableCopy];
-    [memberAddresses removeObject:[helper localAddress]];
+    
+    //    lcy 20200229 iOS：群组，我点击查看群成员的时候，为什么我自己（13376824220）没有显示 因为这里把本人删了
+    //    [memberAddresses removeObject:[helper localAddress]];
+    
     [self addMembers:memberAddresses.allObjects toSection:membersSection useVerifyAction:NO];
     [contents addSection:membersSection];
 
@@ -199,7 +202,13 @@ NS_ASSUME_NONNULL_BEGIN
                                  if (useVerifyAction) {
                                      [weakSelf showSafetyNumberView:address];
                                  } else {
-                                     [weakSelf didSelectAddress:address];
+                                     
+                                     // lcy 20200229 群组，我点击查看群成员的时候，为什么我自己（13376824220）没有显示，显示了自己之后点击自己不做操作
+
+                                     if (!address.isLocalAddress) {
+                                         [weakSelf didSelectAddress:address];
+                                     }
+                                     
                                  }
                              }]];
     }

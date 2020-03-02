@@ -122,6 +122,60 @@ const CGFloat kContactCellAvatarTextMargin = 12;
     self.accessoryLabel.textColor = Theme.middleGrayColor;
 }
 
+/**
+ lcy 20200229 群组，我点击查看群成员的时候，为什么我自己（13376824220）没有显示 新增一个显示群组中头像名称的方法
+ */
+- (void)groupConfigureWithRecipientAddress:(SignalServiceAddress *)address {
+    OWSAssertDebug(address.isValid);
+
+    // Update fonts to reflect changes to dynamic type.
+    [self configureFontsAndColors];
+
+    self.address = address;
+
+    // TODO remove sneaky transaction.
+    [self.databaseStorage readWithBlock:^(SDSAnyReadTransaction *transaction) {
+        self.thread = [TSContactThread getThreadWithContactAddress:address transaction:transaction];
+    }];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(otherUsersProfileDidChange:) name:kNSNotificationNameOtherUsersProfileDidChange
+                                               object:nil];
+    BOOL isNoteToSelf = IsNoteToSelfEnabled() && self.address.isLocalAddress;
+    if (isNoteToSelf) {
+        self.nameLabel.text = @"我";
+    } else {
+        self.nameLabel.text = [self.contactsManager displayNameForAddress:self.address];
+    }
+    [self.nameLabel setNeedsLayout];
+    
+    if (!address.isValid) {
+        OWSFailDebug(@"address should not be invalid");
+        self.avatarView.image = nil;
+        return;
+    }
+
+    ConversationColorName colorName = ^{
+        if (self.thread) {
+            return self.thread.conversationColorName;
+        } else {
+            return [TSThread stableColorNameForNewConversationWithString:address.stringForDisplay];
+        }
+    }();
+
+    OWSContactAvatarBuilder *avatarBuilder = [[OWSContactAvatarBuilder alloc] initWithAddress:address colorName:colorName diameter:kStandardAvatarSize];
+
+    self.avatarView.image = [avatarBuilder build];
+
+    if (self.accessoryMessage) {
+        self.accessoryLabel.text = self.accessoryMessage;
+        [self setAccessoryView:self.accessoryLabel];
+    }
+
+    // Force layout, since imageView isn't being initally rendered on App Store optimized build.
+    [self layoutSubviews];
+}
+
 - (void)configureWithRecipientAddress:(SignalServiceAddress *)address
 {
     OWSAssertDebug(address.isValid);

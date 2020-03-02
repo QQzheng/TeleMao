@@ -294,6 +294,13 @@ NS_ASSUME_NONNULL_BEGIN
 
     NSString *groupName = self.groupNameTextField.text;
 
+    
+    // lcy 20200229 新建群组的时候至少选择一个人的bug
+    if (members.count <= 1) {
+        [OWSActionSheets showErrorAlertWithMessage:@"至少选择一人"];
+        return;
+    }
+    
     [ModalActivityIndicatorViewController
         presentFromViewController:self
                         canCancel:NO

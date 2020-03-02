@@ -1193,7 +1193,8 @@ typedef enum : NSUInteger {
     self.isViewCompletelyAppeared = NO;
 
     [self dismissMessageActionsAnimated:NO];
-    [self dismissReactionsDetailSheetAnimated:NO];
+    //    lcy 20200229 iOS：点击查看表情详情，弹窗会闪一下就消失，因为present ReactionsDetailSheet这个controller之后会进入这个方法，解决方法就是下面的注释了
+    //    [self dismissReactionsDetailSheetAnimated:NO];
 }
 
 - (void)viewDidDisappear:(BOOL)animated

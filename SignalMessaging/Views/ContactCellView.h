@@ -11,6 +11,11 @@ extern const CGFloat kContactCellAvatarTextMargin;
 
 @property (nonatomic, nullable) NSString *accessoryMessage;
 
+/**
+ lcy 20200229 群组，我点击查看群成员的时候，为什么我自己（13376824220）没有显示 群组里面查看联系人专用
+ */
+- (void)groupConfigureWithRecipientAddress:(SignalServiceAddress *)address;
+
 - (void)configureWithRecipientAddress:(SignalServiceAddress *)address;
 
 - (void)configureWithThread:(TSThread *)thread transaction:(SDSAnyReadTransaction *)transaction;

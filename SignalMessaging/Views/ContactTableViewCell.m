@@ -49,6 +49,16 @@ NS_ASSUME_NONNULL_BEGIN
     self.cellView.userInteractionEnabled = NO;
 }
 
+// lcy 20200229 群组，我点击查看群成员的时候，为什么我自己（13376824220）没有显示
+- (void)groupConfigureWithRecipientAddress:(SignalServiceAddress *)address {
+    [OWSTableItem configureCell:self];
+
+    [self.cellView groupConfigureWithRecipientAddress:address];
+
+    // Force layout, since imageView isn't being initally rendered on App Store optimized build.
+    [self layoutSubviews];
+}
+
 - (void)configureWithRecipientAddress:(SignalServiceAddress *)address
 {
     [OWSTableItem configureCell:self];
