@@ -212,6 +212,25 @@ class InviteFlow: NSObject, MFMessageComposeViewControllerDelegate, MFMailCompos
 
     @objc
     public func sendSMSTo(phoneNumbers: [String]) {
+        /**
+         lcy 20200229  没改好ios：分享联系人之后，点击邀请其使用Tmao，然后点击发送短信页右上角的取消，app必闪退
+         
+         框架冲突了，次奥
+         
+         objc[18500]: Class RTCCVPixelBuffer is implemented in both /System/Library/PrivateFrameworks/WebCore.framework/Frameworks/libwebrtc.dylib (0x2043e73a0) and /private/var/containers/Bundle/Application/35877A43-5935-49ED-B011-990090446109/Tmao.app/Frameworks/WebRTC.framework/WebRTC (0x10ad40160). One of the two will be used. Which one is undefined.
+         Total pre-main time: 580.33 milliseconds (100.0%)
+                  dylib loading time: 103.60 milliseconds (17.8%)
+                 rebase/binding time:  75.14 milliseconds (12.9%)
+                     ObjC setup time:  15.25 milliseconds (2.6%)
+                    initializer time: 386.33 milliseconds (66.5%)
+                    slowest intializers :
+                      libSystem.B.dylib :   4.84 milliseconds (0.8%)
+             libMainThreadChecker.dylib :  15.35 milliseconds (2.6%)
+                   libglInterpose.dylib : 281.16 milliseconds (48.4%)
+                           AFNetworking :  63.07 milliseconds (10.8%)
+
+         /Users/liucenying/Downloads/Signal-iOS/Signal/src/ViewControllers/HomeView/ConversationListViewController.m:126:9: runtime error: null pointer returned from function declared to never return null
+         */
         let messageComposeViewController = MFMessageComposeViewController()
         messageComposeViewController.messageComposeDelegate = self
         messageComposeViewController.recipients = phoneNumbers

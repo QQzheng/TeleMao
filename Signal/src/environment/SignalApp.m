@@ -210,13 +210,14 @@ NS_ASSUME_NONNULL_BEGIN
 {
     //版本1.1 -------新UI
     UITabBarController *tabbarVC = [[UITabBarController alloc] init];
-    tabbarVC.tabBar.translucent = NO;
+    tabbarVC.tabBar.translucent = YES;  //注意，如果是NO的话ConversationSplitViewController会距离底部有段距离死活下不去
     tabbarVC.tabBar.tintColor = UIColor.blackColor;
     [tabbarVC.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.blackColor} forState:UIControlStateNormal];
     [tabbarVC.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.blackColor} forState:UIControlStateSelected];
     
     // lcy 20200302 设置root修改成这样了
-    ConversationSplitViewController *viewController0 = [ConversationSplitViewController new];    viewController0.tabBarItem.title = @"对话";
+    ConversationSplitViewController *viewController0 = [ConversationSplitViewController new];
+    viewController0.tabBarItem.title = @"对话";
     viewController0.tabBarItem.image = [[UIImage imageNamed:@"conversation"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     viewController0.tabBarItem.selectedImage = [[UIImage imageNamed:@"conversation_select"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     [tabbarVC addChildViewController:viewController0];

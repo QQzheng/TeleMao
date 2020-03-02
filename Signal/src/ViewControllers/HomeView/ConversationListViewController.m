@@ -631,10 +631,24 @@ NSString *const kArchiveButtonPseudoGroup = @"kArchiveButtonPseudoGroup";
     [self.searchResultsController viewDidDisappear:animated];
 }
 
+// lcy 20200302 对话页导航栏添加按钮点击事件
+- (void)lcy_addAction {
+    
+    
+}
+
 - (void)updateBarButtonItems
 {
-    
     // lcy 20200302 对话页导航栏修改
+
+    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"plus-24"] style:UIBarButtonItemStylePlain target:self action:@selector(lcy_addAction)];
+    addButton.accessibilityLabel
+        = NSLocalizedString(@"XXGJUSTHHANQC131", @"Accessibility label from compose button.");
+    addButton.accessibilityHint = NSLocalizedString(
+        @"XXGJUSTHHANQC130", @"Accessibility hint describing what you can do with the compose button");
+    addButton.accessibilityIdentifier = ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"plus-24");
+    self.navigationItem.rightBarButtonItems = @[addButton];
+    
     return;
     
     
