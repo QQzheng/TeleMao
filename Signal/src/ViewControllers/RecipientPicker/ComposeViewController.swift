@@ -16,11 +16,13 @@ class ComposeViewController: OWSViewController {
         addChild(recipientPicker)
         view.addSubview(recipientPicker.view)
 
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(dismissPressed))
+        // lcy 20200302 导航栏按钮UI修改
+//        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(dismissPressed))
 
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "btnGroup--white"), style: .plain, target: self, action: #selector(newGroupPressed))
-        navigationItem.rightBarButtonItem?.accessibilityLabel = NSLocalizedString("XXGJUSTHHANQN12",
-                                                                                  comment: "Accessibility label for the new group button")
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "btnGroup--white"), style: .plain, target: self, action: #selector(newGroupPressed))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "plus"), style: .plain, target: self, action: #selector(newGroupPressed))
+
+        navigationItem.rightBarButtonItem?.accessibilityLabel = NSLocalizedString("XXGJUSTHHANQN12", comment: "Accessibility label for the new group button")
     }
 
     @objc func dismissPressed() {

@@ -79,11 +79,12 @@
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"Person_bg"] forBarMetrics:UIBarMetricsDefault];
     [self.navigationItem setHidesBackButton:YES];
 
-    self.navigationItem.leftBarButtonItem =
-        [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop
-                                                      target:self
-                                                      action:@selector(dismissWasPressed:)
-                                     accessibilityIdentifier:ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"dismiss")];
+    // lcy 20200302 我的界面导航栏修改
+//    self.navigationItem.leftBarButtonItem =
+//        [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop
+//                                                      target:self
+//                                                      action:@selector(dismissWasPressed:)
+//                                     accessibilityIdentifier:ACCESSIBILITY_IDENTIFIER_WITH_NAME(self, @"dismiss")];
     //注释黑暗模式
     //[self updateRightBarButtonForTheme];
     [self observeNotifications];

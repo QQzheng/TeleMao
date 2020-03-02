@@ -210,7 +210,7 @@ NS_ASSUME_NONNULL_BEGIN
 {
     //版本1.1 -------新UI
     UITabBarController *tabbarVC = [[UITabBarController alloc] init];
-    tabbarVC.tabBar.translucent = YES;  //注意，如果是NO的话ConversationSplitViewController会距离底部有段距离死活下不去
+    tabbarVC.tabBar.translucent = YES;  //lcy 20200302注意，如果是NO的话ConversationSplitViewController会距离底部有段距离死活下不去
     tabbarVC.tabBar.tintColor = UIColor.blackColor;
     [tabbarVC.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.blackColor} forState:UIControlStateNormal];
     [tabbarVC.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:UIColor.blackColor} forState:UIControlStateSelected];
