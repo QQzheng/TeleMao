@@ -5,9 +5,9 @@
 	<key>BuildDetails</key>
 	<dict>
 		<key>OSXVersion</key>
-		<string>10.14.5</string>
+		<string>10.15.3</string>
 		<key>WebRTCCommit</key>
-		<string></string>
+		<string>b532d7007c47d803b2fc7affe453e8cd007da99c lcy 导航栏按钮UI改好了</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>

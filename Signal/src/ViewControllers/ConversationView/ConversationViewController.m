@@ -4804,8 +4804,12 @@ typedef enum : NSUInteger {
 
 - (void)didCreateOrEditContact
 {
-    OWSLogInfo(@"");
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+//版本1.1 新增sendFailMessage，解决名片邀请闪退
+- (void)sendFailMessage{
+    ActionSheetController *actionSheet = [[ActionSheetController alloc] initWithTitle:nil message:NSLocalizedString(@"XXGJUSTHHANQS42", comment: "发送失败")];
+    [self presentActionSheet:actionSheet];
 }
 
 #pragma mark - Toast

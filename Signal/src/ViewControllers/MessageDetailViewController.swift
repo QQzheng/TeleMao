@@ -817,10 +817,15 @@ extension MessageDetailViewController: OWSMessageViewOnceViewDelegate {
 }
 
 extension MessageDetailViewController: ContactShareViewHelperDelegate {
-
     public func didCreateOrEditContact() {
         updateContent()
         self.dismiss(animated: true)
+    }
+//版本1.1 新增sendFailMessage，解决名片邀请闪退
+    public func sendFailMessage() {
+        let warning = ActionSheetController(title: nil, message: NSLocalizedString("XXGJUSTHHANQS42", comment: "Alert body after invite failed"))
+        warning.addAction(OWSActionSheets.dismissAction)
+        self.present(warning, animated: true, completion: nil)
     }
 }
 

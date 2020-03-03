@@ -7,15 +7,17 @@ import MessageUI
 @objc
 public protocol ContactShareViewHelperDelegate: class {
     func didCreateOrEditContact()
+    func sendFailMessage()
 }
 
 @objc
-public class ContactShareViewHelper: NSObject, CNContactViewControllerDelegate {
+public class ContactShareViewHelper: NSObject, CNContactViewControllerDelegate,MFMessageComposeViewControllerDelegate {
 
     @objc
     weak var delegate: ContactShareViewHelperDelegate?
 
     let contactsManager: OWSContactsManager
+    private let installUrl = "https://signal.org/install/"
 
     @objc
     public required init(contactsManager: OWSContactsManager) {
@@ -80,8 +82,18 @@ public class ContactShareViewHelper: NSObject, CNContactViewControllerDelegate {
             return
         }
 
-        let inviteFlow = InviteFlow(presentingViewController: fromViewController)
-        inviteFlow.sendSMSTo(phoneNumbers: phoneNumbers)
+        //版本1.1 修改名片分享闪退
+//       let inviteFlow = InviteFlow(presentingViewController: fromViewController)
+//        inviteFlow.sendSMSTo(phoneNumbers: phoneNumbers)
+        
+        let messageComposeViewController = MFMessageComposeViewController()
+        messageComposeViewController.messageComposeDelegate = self
+        messageComposeViewController.recipients = phoneNumbers
+
+        let inviteText = NSLocalizedString("XXGJUSTHHANQS157", comment: "body sent to contacts when inviting to Install Tmao")
+        messageComposeViewController.body = inviteText.appending(" \(self.installUrl)")
+        
+        fromViewController.present(messageComposeViewController, animated: true)
     }
 
     @objc
@@ -204,6 +216,27 @@ public class ContactShareViewHelper: NSObject, CNContactViewControllerDelegate {
             return
         }
 
+        delegate.didCreateOrEditContact()
+    }
+    
+    //MARK: - MFMessageComposeViewControllerDelegate,版本1.1新增
+    @objc public func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
+        guard let delegate = delegate else {
+            owsFailDebug("missing delegate")
+            return
+        }
+        
+        switch result {
+        case .failed:
+            delegate.sendFailMessage() //邀请失败
+        case .sent:
+            Logger.debug("user successfully invited their friends via SMS.")
+        case .cancelled:
+            Logger.debug("user cancelled message invite")
+        @unknown default:
+            owsFailDebug("unknown MessageComposeResult: \(result)")
+        }
+        
         delegate.didCreateOrEditContact()
     }
 }
