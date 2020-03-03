@@ -7,7 +7,7 @@
 		<key>OSXVersion</key>
 		<string>10.15.3</string>
 		<key>WebRTCCommit</key>
-		<string>b532d7007c47d803b2fc7affe453e8cd007da99c lcy 导航栏按钮UI改好了</string>
+		<string>af6ed346c3e803810ebe23b62829710c6c3a0ca1 解决名片邀请闪退</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>

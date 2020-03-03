@@ -1,3076 +1,1027 @@
-/* Button text to dismiss missing contacts permission alert */
 "XXGJUSTHHANQA0" = "稍後";
-
-/* Action sheet item */
 "XXGJUSTHHANQA1" = "接受新的安全碼";
-
-/* Accessibility label for attachment. */
 "XXGJUSTHHANQA2" = "附件";
-
-/* Accessibility label for audio. */
 "XXGJUSTHHANQA3" = "音訊";
-
-/* Accessibility label for contact. */
 "XXGJUSTHHANQA4" = "聯絡人";
-
-/* Accessibility label for media. */
 "XXGJUSTHHANQA5" = "媒體";
-
-/* Accessibility label for message. */
 "XXGJUSTHHANQA6" = "訊息";
-
-/* Accessibility label for messages sent by you. */
 "XXGJUSTHHANQA7" = "您";
-
-/* Accessibility label for stickers. */
 "XXGJUSTHHANQA8" = "貼圖";
-
-/* Label for 'audio call' button in contact view. */
 "XXGJUSTHHANQA9" = "Tmao 電話";
-
-/* Label for 'invite' button in contact view. */
 "XXGJUSTHHANQA10" = "邀請來使用 Tmao";
-
-/* Label for 'send message' button in contact view.
-   Label for button that lets you send a message to a contact. */
 "XXGJUSTHHANQA11" = "傳送訊息";
-
-/* Label for 'share contact' button. */
 "XXGJUSTHHANQA12" = "分享連絡人資訊";
-
-/* Label for 'video call' button in contact view. */
 "XXGJUSTHHANQA13" = "影像電話";
-
-/* Message shown in conversation view that offers to share your profile with a group. */
 "XXGJUSTHHANQA14" = "要讓此群組看見你的個人資訊？";
-
-/* Message shown in conversation view that offers to add an unknown user to your phone's contacts. */
 "XXGJUSTHHANQA15" = "你要將此使用者加入聯絡資訊嗎？";
-
-/* Message shown in conversation view that offers to share your profile with a user. */
 "XXGJUSTHHANQA16" = "你是否願意將個人資訊讓此使用者看見？";
-
-/* generic button text to acknowledge that the corresponding text was read. */
 "XXGJUSTHHANQA74" = "收到";
-
-/* The label for the 'discard' button in alerts and action sheets. */
 "XXGJUSTHHANQA17" = "放棄";
-
-/* The label for the 'don't save' button in action sheets. */
 "XXGJUSTHHANQA18" = "不要儲存";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQA19" = "錯誤";
-
-/* The label for the 'save' button in action sheets. */
 "XXGJUSTHHANQA20" = "儲存";
-
-/* notification action */
 "XXGJUSTHHANQA21" = "接聽";
-
-/* notification body */
 "XXGJUSTHHANQA22" = "新訊息！";
-
-/* Message for the 'app launch failed' alert. */
 "XXGJUSTHHANQA23" = "Tmao 無法啟動。請將除錯日誌上傳。";
-
-
-/* Error indicating that the app could not launch because the database could not be loaded. */
 "XXGJUSTHHANQA25" = "無法讀取資料庫";
-
-/* Error indicating that the app could not launch without reverting unknown database migrations. */
 "XXGJUSTHHANQA26" = "請升級到最新版的 Tmao。";
-
-/* Error indicating that the app could not launch without reverting unknown database migrations. */
 "XXGJUSTHHANQA27" = "未知的資料庫版本。";
-
-/* Text prompting user to edit their profile name. */
 "XXGJUSTHHANQA28" = "設置名稱";
-
-/* Message format for the 'new app version available' alert. Embeds: {{The latest app version number}} */
 "XXGJUSTHHANQA30" = "第%@版已經在App Store 上架";
-
-/* Title for the 'new app version available' alert. */
 "XXGJUSTHHANQA31" = "有新版本的 Tmao 提供下載";
-
-/* Label for the 'update' button in the 'new app version available' alert. */
 "XXGJUSTHHANQA32" = "更新";
-
-/* Name indicating that the dark theme is enabled. */
 "XXGJUSTHHANQA33" = "暗色系";
-
-/* Name indicating that the light theme is enabled. */
 "XXGJUSTHHANQA34" = "亮色系";
-
-/* Name indicating that the system theme is enabled. */
 "XXGJUSTHHANQA35" = "系統";
-
-/* Name of application */
 "XXGJUSTHHANQA36" = "Tmao";
-
-/* Pressing this button moves a thread from the inbox to the archive */
 "XXGJUSTHHANQA37" = "封存";
-
-/* One-line label indicating the user can add no more text to the attachment caption. */
 "XXGJUSTHHANQA39" = "標題字數已達限制。";
-
-/* placeholder text for an empty captioning field */
 "XXGJUSTHHANQA40" = "新增標題...";
-
-/* Title for 'caption' mode of the attachment approval view. */
 "XXGJUSTHHANQA41" = "字幕";
-
-/* Error that outgoing attachments could not be exported. */
 "XXGJUSTHHANQA75" = "附件匯出失敗。";
-
-/* alert text when Tmao was unable to save a copy of the attachment to the system photo library */
 "XXGJUSTHHANQA42" = "儲存失敗";
-
-/* Format string for file extension label in call interstitial view */
 "XXGJUSTHHANQA43" = "檔案類型：%@";
-
-/* Format string for file size label in call interstitial view. Embeds: {{file size as 'N mb' or 'N kb'}}. */
 "XXGJUSTHHANQA44" = "檔案大小：%@";
-
-/* toast alert shown after user taps the 'save' button */
 "XXGJUSTHHANQA45" = "已儲存";
-
-/* Label for 'send' button in the 'attachment approval' dialog. */
 "XXGJUSTHHANQA46" = "傳送";
-
-/* Status label when an attachment download has failed. */
 "XXGJUSTHHANQA48" = "下載失敗。請點擊再試一次。";
-
-/* The title of the 'attachment error' alert. */
 "XXGJUSTHHANQA49" = "附件傳送錯誤";
-
-/* Attachment error message for image attachments which could not be converted to JPEG */
 "XXGJUSTHHANQA50" = "無法轉換照片。";
-
-/* Attachment error message for video attachments which could not be converted to MP4 */
 "XXGJUSTHHANQA51" = "無法處理此影片。";
-
-/* Attachment error message for image attachments which cannot be parsed */
 "XXGJUSTHHANQA52" = "無法解析照片。";
-
-/* Attachment error message for image attachments in which metadata could not be removed */
 "XXGJUSTHHANQA53" = "無法從影像檔中移除數據資料。";
-
-/* Attachment error message for image attachments which could not be resized */
 "XXGJUSTHHANQA54" = "無法調整照片尺寸。";
-
-/* Attachment error message for attachments whose data exceed file size limits */
 "XXGJUSTHHANQA55" = "附件太大。";
-
-/* Attachment error message for attachments with invalid data */
 "XXGJUSTHHANQA56" = "附檔包含了無效的內容。";
-
-/* Attachment error message for attachments with an invalid file format */
 "XXGJUSTHHANQA57" = "附檔含有一個無效的檔案格式。";
-
-/* Attachment error message for attachments without any data */
 "XXGJUSTHHANQA58" = "附件是空白的。";
-
-/* Accessibility hint describing what you can do with the attachment button */
 "XXGJUSTHHANQA59" = "選擇媒體來傳送";
-
-/* A button to open the camera from the Attachment Keyboard */
 "XXGJUSTHHANQA60" = "相機";
-
-/* A button to select a file from the Attachment Keyboard */
 "XXGJUSTHHANQA62" = "檔案";
-
-/* A button to select a GIF from the Attachment Keyboard */
 "XXGJUSTHHANQA63" = "動態圖檔";
-
-/* A button to select a location from the Attachment Keyboard */
 "XXGJUSTHHANQA64" = "位置";
-
-/* A string indicating to the user that they'll be able to send photos from this view once they enable photo access. */
 "XXGJUSTHHANQA65" = "授權設定中照片的存取權限，以便將其在此處傳送。";
-
-/* A string indicating to the user that once they take photos, they'll be able to send them from this view. */
 "XXGJUSTHHANQA66" = "拍完照片後，你可以在這裡傳送你的最近的照片。";
-
-
-/* Alert title when picking a document fails for an unknown reason */
 "XXGJUSTHHANQA68" = "選取文件失敗。";
-
-/* Alert body when picking a document fails because user picked a directory/bundle */
 "XXGJUSTHHANQA69" = "請將檔案或資料夾創建為壓縮檔，並再嘗試發送該檔案。";
-
-/* Alert title when picking a document fails because user picked a directory/bundle */
 "XXGJUSTHHANQA70" = "不支援的檔案類型。";
-
-/* Short text label for a voice message attachment, used for thread preview and on the lock screen */
 "XXGJUSTHHANQA71" = "語音訊息";
-
-/* A string indicating that an audio message is playing. */
 "XXGJUSTHHANQA72" = "語音訊息";
-
-/* action sheet button title to enable built in speaker during a call */
 "XXGJUSTHHANQA73" = "揚聲器";
-
-/* return to the previous screen */
 "XXGJUSTHHANQB1" = "返回";
-
-/* Error indicating the backup export could not export the user's data. */
 "XXGJUSTHHANQB2" = "備份資料無法被匯出。";
-
-/* Error indicating that the app received an invalid response from CloudKit. */
 "XXGJUSTHHANQB3" = "無效的服務回應";
-
-/* Indicates that the cloud is being cleaned up. */
 "XXGJUSTHHANQB4" = "清除備份";
-
-/* Indicates that the backup export is being configured. */
 "XXGJUSTHHANQB5" = "初始化備份";
-
-/* Indicates that the database data is being exported. */
 "XXGJUSTHHANQB6" = "匯出資料";
-
-/* Indicates that the backup export data is being exported. */
 "XXGJUSTHHANQB7" = "匯出備份";
-
-/* Indicates that the backup export data is being uploaded. */
 "XXGJUSTHHANQB8" = "上傳備份";
-
-/* Error indicating the backup import could not import the user's data. */
 "XXGJUSTHHANQB9" = "備份檔無法被匯入。";
-
-/* Indicates that the backup import is being configured. */
 "XXGJUSTHHANQB10" = "設置備份檔";
-
-/* Indicates that the backup import data is being downloaded. */
 "XXGJUSTHHANQB11" = "下載備份資料";
-
-/* Indicates that the backup import data is being finalized. */
 "XXGJUSTHHANQB12" = "完成備份中";
-
-/* Indicates that the backup import data is being imported. */
 "XXGJUSTHHANQB13" = "匯入備份中。";
-
-/* Indicates that the backup database is being restored. */
 "XXGJUSTHHANQB15" = "回復資料庫";
-
-/* Indicates that the backup import data is being restored. */
 "XXGJUSTHHANQB14" = "回復檔案";
-
-/* Label for the backup restore decision section. */
 "XXGJUSTHHANQB16" = "提供備份";
-
-/* Label for the backup restore description. */
 "XXGJUSTHHANQB17" = "回復備份";
-
-/* Label for the backup restore progress. */
 "XXGJUSTHHANQB18" = "過程";
-
-/* Label for the backup restore status. */
 "XXGJUSTHHANQB19" = "狀態";
-
-/* Error shown when backup fails due to an unexpected error. */
 "XXGJUSTHHANQB20" = "未預期的備份錯誤";
-
-/* An explanation of the consequences of blocking a group. */
 "XXGJUSTHHANQB21" = "你將無法從此群組收到訊息或更新。";
-
-/* Button label for the 'block' button */
 "XXGJUSTHHANQB22" = "封鎖";
-
-/* A format for the 'block group' action sheet title. Embeds the {{group name}}. */
 "XXGJUSTHHANQB23" = "封鎖及離開\"%@\"群組?";
-
-/* A format for the 'block user' action sheet title. Embeds {{the blocked user's name or phone number}}. */
 "XXGJUSTHHANQB24" = "封鎖 %@?";
-
-/* Section header for groups that have been blocked */
 "XXGJUSTHHANQB25" = "已封鎖群組";
-
-/* Section header for users that have been blocked */
 "XXGJUSTHHANQB26" = "已封鎖聯絡人";
-
-/* Button label for the 'unblock' button */
 "XXGJUSTHHANQB27" = "解除封鎖";
-
-/* Action sheet body when confirming you want to unblock a group */
 "XXGJUSTHHANQB28" = "現存的組員將可以再次將你加入群組。";
-
-/* Action sheet title when confirming you want to unblock a group. */
 "XXGJUSTHHANQB29" = "解除封鎖此群組？";
-
-/* A format for the 'unblock conversation' action sheet title. Embeds the {{conversation title}}. */
 "XXGJUSTHHANQB30" = "要解除封鎖 %@嗎？";
-
-/* The message format of the 'conversation blocked' alert. Embeds the {{conversation title}}. */
 "XXGJUSTHHANQB32" = "%@ 已被封鎖。";
-
-/* The title of the 'user blocked' alert. */
 "XXGJUSTHHANQB33" = "使用者已被封鎖";
-
-/* The title of the 'group blocked' alert. */
 "XXGJUSTHHANQB34" = "群組已被封鎖";
-
-/* The message of the 'You can't block yourself' alert. */
 "XXGJUSTHHANQB35" = "你不能封鎖自己。";
-
-/* Alert title after unblocking a group or 1:1 chat. Embeds the {{conversation title}}. */
 "XXGJUSTHHANQB37" = "%@ 已被解除封鎖。";
-
-/* Alert body after unblocking a group. */
 "XXGJUSTHHANQB38" = "現存的組員可以立刻再次將你加入群組。";
-
-/* Action sheet that will block an unknown user. */
 "XXGJUSTHHANQB39" = "封鎖";
-
-/* Title format for action sheet that offers to block an unknown user.Embeds {{the unknown user's name or phone number}}. */
 "XXGJUSTHHANQB40" = "封鎖 %@?";
-
-/* An explanation of the consequences of blocking another user. */
 "XXGJUSTHHANQB41" = "已封鎖的聯絡人將無法撥電話或傳訊息給你。";
-
-/* browse files option from file sharing menu */
 "XXGJUSTHHANQB52" = "瀏覽";
-
-/* Label for 'continue' button. */
 "XXGJUSTHHANQB42" = "繼續";
-
-/* Label for generic done button. */
 "XXGJUSTHHANQB43" = "完成";
-
-/* Label for the 'next' button. */
 "XXGJUSTHHANQB44" = "下一步";
-
-/* Label for the 'okay' button. */
 "XXGJUSTHHANQB45" = "Okay";
-
-/* Button text to enable batch selection mode */
 "XXGJUSTHHANQB46" = "選擇";
-
-/* Label for the 'submit' button. */
 "XXGJUSTHHANQB47" = "上傳";
-
-/* Label for button that lets users call a contact again. */
 "XXGJUSTHHANQB48" = "重撥電話";
-
-/* Alert message when calling and permissions for microphone are missing */
 "XXGJUSTHHANQB49" = "你可以在iOS 設定中允許取用麥克風，以便在 Tmao 中撥打電話及錄製語音訊息。";
-
-/* Alert title when calling and permissions for microphone are missing */
 "XXGJUSTHHANQB50" = "須要使用麥克風";
-
-/* notification body */
 "XXGJUSTHHANQC0" = "來電";
-
-/* Accessibility label for placing call button */
 "XXGJUSTHHANQC1" = "撥出";
-
-/* notification body */
 "XXGJUSTHHANQC2" = "未接來電，因為來電者的安全碼改變。";
-
-/* notification body */
 "XXGJUSTHHANQC3" = "未接來電";
-
-/* Call setup status label after outgoing call times out */
 "XXGJUSTHHANQC4" = "沒有回應";
-
-/* embeds {{Call Status}} in call screen label. For ongoing calls, {{Call Status}} is a seconds timer like 01:23, otherwise {{Call Status}} is a short text like 'Ringing', 'Busy', or 'Failed Call' */
 "XXGJUSTHHANQC5" = "Tmao %@";
-
-
-/* Message format for alert offering to call a user. Embeds {{the user's display name or phone number}}. */
 "XXGJUSTHHANQC7" = "你要撥給 %@嗎？";
-
-/* Title for alert offering to call a user. */
 "XXGJUSTHHANQC8" = "撥出？";
-
-/* Accessibility label for accepting incoming calls */
 "XXGJUSTHHANQC9" = "接聽來電";
-
-/* Accessibility label for declining incoming calls */
 "XXGJUSTHHANQC11" = "拒絕來電";
-
-/* tooltip label when remote party has enabled their video */
 "XXGJUSTHHANQC12" = "點擊此處以開啟你的影片";
-
-/* Accessibility label for hang up call */
 "XXGJUSTHHANQC13" = "結束通話";
-
-/* Accessibility label for muting the microphone */
 "XXGJUSTHHANQC14" = "靜音";
-
-/* Reminder to the user of the benefits of enabling CallKit and disabling CallKit privacy. */
 "XXGJUSTHHANQC15" = "你可以在 Tmao 隱私權設定中啟動 iOS 通話整合，以便從鎖定螢幕中回覆來電。";
-
-/* Reminder to the user of the benefits of disabling CallKit privacy. */
 "XXGJUSTHHANQC16" = "你可以在 Tmao 隱私權設定中啟動 iOS 電話整合，以顯示來電者的名字與電話號碼。";
-
-/* Label for button that shows the privacy settings. */
 "XXGJUSTHHANQC17" = "顯示隱私權設定";
-
-/* Accessibility label to toggle front- vs. rear-facing camera */
 "XXGJUSTHHANQC18" = "變換相機方向";
-
-/* Accessibility label to switch to audio only */
 "XXGJUSTHHANQC19" = "切換至語音通話";
-
-/* Accessibility label to switch to video call */
 "XXGJUSTHHANQC20" = "切換至影像通話";
-
-/* Label for the 'return to call' banner. */
 "XXGJUSTHHANQC21" = "點取以回到撥號";
-
-/* notification action */
 "XXGJUSTHHANQC23" = "電話回撥";
-
-/* The generic name used for calls if CallKit privacy is enabled */
 "XXGJUSTHHANQC24" = "Tmao 使用者";
-
-/* Accessibility hint describing what you can do with the camera button */
 "XXGJUSTHHANQC25" = "拍一張照片然後傳送出去";
-
-/* Message for alert explaining that a user cannot be verified. */
 "XXGJUSTHHANQC27" = "此使用者無法驗證直到你與他們交換訊息。";
-
-/* Title for the 'censorship circumvention country' view. */
 "XXGJUSTHHANQC28" = "選擇國家";
-
-/* The label for the 'do not restore backup' button. */
 "XXGJUSTHHANQC30" = "不復原？";
-
-/* Message for alert shown when the app failed to check for an existing backup. */
 "XXGJUSTHHANQC31" = "無法判定是否有備份可供復原。";
-
-/* The label for the 'restore backup' button. */
 "XXGJUSTHHANQC32" = "復原";
-
-/* Error indicating that the app could not determine that user's iCloud account status */
 "XXGJUSTHHANQC34" = "Tmao 無法確定你 iCloud 帳號狀況。請在iOS 設定中登入你的 iCloud 帳號並備份你的 Tmao 資料。";
-
-/* Error indicating that user does not have an iCloud account. */
 "XXGJUSTHHANQC35" = "沒有 iCloud 帳號。請從 iOS 設定中登入 iCloud 帳號並備份你 Tmao 的資料。";
-
-/* Error indicating that the app was prevented from accessing the user's iCloud account. */
 "XXGJUSTHHANQC36" = "Tmao 被 iCloud 帳號拒絕連結備份。請在 iOS設定中授權Tmao 連結你的 iCloud 帳號以備份 Tmao 資料。";
-
-/* The first of two messages demonstrating the chosen conversation color, by rendering this message in an outgoing message bubble. */
 "XXGJUSTHHANQC37" = "選擇在此對話中要發出訊息的顏色。";
-
-/* The second of two messages demonstrating the chosen conversation color, by rendering this message in an incoming message bubble. */
 "XXGJUSTHHANQC38" = "只有你可看到你所選的顏色。";
-
-/* Modal Sheet title when picking a conversation color. */
 "XXGJUSTHHANQC39" = "對話的顏色";
-
-/* Activity Sheet label */
 "XXGJUSTHHANQC40" = "和剪貼簿比對";
-
-/* Accessibility hint describing what you can do with the compose button */
 "XXGJUSTHHANQC130" = "選擇或搜尋一個 Tmao 聯絡人來開始對話。";
-
-/* Accessibility label from compose button. */
 "XXGJUSTHHANQC131" = "撰寫";
-
-/* Table section header for contact listing when composing a new message */
 "XXGJUSTHHANQC41" = "聯絡資訊";
-
-/* Table section header for group listing when composing a new message */
 "XXGJUSTHHANQC42" = "群組";
-
-/* Table section header for phone number search when composing a new message */
 "XXGJUSTHHANQC43" = "搜尋電話號碼";
-
-/* Table section header for username search when composing a new message */
 "XXGJUSTHHANQC44" = "搜尋使用者名稱";
-
-/* Multi-line label explaining why compose-screen contact picker is empty. */
 "XXGJUSTHHANQC45" = "你可以在 iOS 設定中允許取用聯絡資訊，以確認哪位聯絡人是 Tmao 的使用者。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQC46" = "這將會透過刪除你的訊息及自伺服器取消註冊來重置應用程式。在這個過程完成後，本應用程式將關閉。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQC47" = "你確定要刪除你的帳號嗎？";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQC132" = "這將透過刪除此裝置上的所有訊息來重置應用軟體。 你可以再次與手機連結，但這不會還原已刪除的訊息。 該過程完成後，該應用程式將關閉。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQC133" = "你確定將所有的資料刪除？";
-
-/* Alert body */
 "XXGJUSTHHANQC48" = "你將無法在此群組中寄出或收到訊息。";
-
-/* Alert title */
 "XXGJUSTHHANQC49" = "你確定要離開嗎？";
-
-/* Button text */
 "XXGJUSTHHANQC50" = "連結新的裝置";
-
-/* Action sheet body presented when a user's SN has recently changed. Embeds {{contact's name or phone number}} */
 "XXGJUSTHHANQC51" = "%@可能重新安裝程式或更換裝置了。為了隱私上的安全，請與他們重新驗證安全碼。";
-
-/* Action sheet title presented when a user's SN has recently changed. Embeds {{contact's name or phone number}} */
 "XXGJUSTHHANQC52" = "與%@的安全碼已變更。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQC53" = "確認";
-
-/* Label for a contact's postal address. */
 "XXGJUSTHHANQC54" = "地址";
-
-/* An indicator that a contact or group has been blocked. */
 "XXGJUSTHHANQC55" = "已封鎖";
-
-/* An indicator that a contact is no longer verified. */
 "XXGJUSTHHANQC56" = "尚未驗證";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQC57" = "未註冊的號碼";
-
-/* Label for the 'edit name' button in the contact share approval view. */
 "XXGJUSTHHANQC58" = "編輯";
-
-/* Label for a contact's email address. */
 "XXGJUSTHHANQC59" = "Email";
-
-/* Label for the 'city' field of a contact's address. */
 "XXGJUSTHHANQC60" = "城市";
-
-/* Label for the 'country' field of a contact's address. */
 "XXGJUSTHHANQC61" = "國家";
-
-/* Label for the 'neighborhood' field of a contact's address. */
 "XXGJUSTHHANQC62" = "鄰里";
-
-/* Label for the 'pobox' field of a contact's address. */
 "XXGJUSTHHANQC63" = "郵政信箱";
-
-/* Label for the 'postcode' field of a contact's address. */
 "XXGJUSTHHANQC64" = "郵遞區號";
-
-/* Label for the 'region' field of a contact's address. */
 "XXGJUSTHHANQC65" = "地區";
-
-/* Label for the 'street' field of a contact's address. */
 "XXGJUSTHHANQC66" = "街道";
-
-/* Label for the 'family name' field of a contact. */
 "XXGJUSTHHANQC67" = "姓";
-
-/* Label for the 'given name' field of a contact. */
 "XXGJUSTHHANQC68" = "名字";
-
-/* Label for the 'middle name' field of a contact. */
 "XXGJUSTHHANQC69" = "中間名";
-
-/* Label for the 'name prefix' field of a contact. */
 "XXGJUSTHHANQC70" = "前綴名";
-
-/* Label for the 'name suffix' field of a contact. */
 "XXGJUSTHHANQC71" = "後綴名";
-
-/* Label for the 'organization' field of a contact. */
 "XXGJUSTHHANQC72" = "組織";
-
-/* Label for a contact's phone number. */
 "XXGJUSTHHANQC73" = "電話號碼";
-
-/* table cell subtitle when contact card has no email */
 "XXGJUSTHHANQC74" = "無可使用的email地址";
-
-/* table cell subtitle when contact card has no known phone number */
 "XXGJUSTHHANQC75" = "無可使用的電話號碼";
-
-/* navbar title for contact picker when sharing a contact */
 "XXGJUSTHHANQC76" = "選擇連絡人";
-
-/* Title for the 'Approve contact share' view. */
 "XXGJUSTHHANQC77" = "分享連絡人";
-
-/* Title for the 'edit contact share name' view. */
 "XXGJUSTHHANQC78" = "編輯姓名";
-
-/* Error indicating that an invalid contact cannot be shared. */
 "XXGJUSTHHANQC79" = "無效的連絡人。";
-
-/* Error indicating that at least one contact field must be selected before sharing a contact. */
 "XXGJUSTHHANQC80" = "未選擇連絡人欄位。";
-
-/* Label for 'open address in maps app' button in contact view. */
 "XXGJUSTHHANQC81" = "用地圖開啟";
-
-/* Label for 'open email in email app' button in contact view. */
 "XXGJUSTHHANQC82" = "傳送 Email";
-
-/* Indicates that a contact has no name. */
 "XXGJUSTHHANQC83" = "取消命名聯絡人";
-
-/* Message for the 'conversation delete confirmation' alert. */
 "XXGJUSTHHANQC84" = "此無法被撤銷。";
-
-/* Title for the 'conversation delete confirmation' alert. */
 "XXGJUSTHHANQC85" = "刪除對話？";
-
-/* Momentarily shown to the user when attempting to select more conversations than is allowed. Embeds {{max number of conversations}} that can be selected. */
 "XXGJUSTHHANQC86" = "你不能選擇超過%@的對話。";
-
-/* table section header for section containing recent conversations */
 "XXGJUSTHHANQC87" = "最近的對話";
-
-/* table section header for section containing contacts */
 "XXGJUSTHHANQC88" = "人們";
-
-/* navbar header */
 "XXGJUSTHHANQC90" = "選擇收件者";
-
-/* keyboard toolbar label when no messages match the search string */
 "XXGJUSTHHANQC91" = "不相符";
-
-/* keyboard toolbar label when exactly 1 message matches the search string */
 "XXGJUSTHHANQC92" = "1 項相符";
-
-/* keyboard toolbar label when more than 1 message matches the search string. Embeds {{number/position of the 'currently viewed' result}} and the {{total number of results}} */
 "XXGJUSTHHANQC93" = "%d 之 %d 個相符";
-
-/* title for conversation settings screen */
 "XXGJUSTHHANQC94" = "對話設定";
-
-/* Label for 'new contact' button in conversation settings view. */
 "XXGJUSTHHANQC95" = "加入現有的聯絡人";
-
-/* button in conversation settings view. */
 "XXGJUSTHHANQC134" = "新增系統聯絡人";
-
-/* table cell label in conversation settings */
 "XXGJUSTHHANQC96" = "封鎖這個群組";
-
-/* table cell label in conversation settings */
 "XXGJUSTHHANQC97" = "封鎖這個聯絡人";
-
-/* Navbar title when viewing settings for a 1-on-1 thread */
 "XXGJUSTHHANQC98" = "使用者資訊";
-
-/* Label for table cell which leads to picking a new conversation color */
 "XXGJUSTHHANQC99" = "對話顏色";
-
-/* Navbar title when viewing settings for a group thread */
 "XXGJUSTHHANQC100" = "群組資訊";
-
-
-/* Indicates that the current thread is not muted. */
 "XXGJUSTHHANQC103" = "停止靜音通知";
-
-/* Label for button to mute a thread for a day. */
 "XXGJUSTHHANQC104" = "靜音一天";
-
-/* Label for button to mute a thread for a hour. */
 "XXGJUSTHHANQC105" = "靜音一小時";
-
-/* Label for button to mute a thread for a minute. */
 "XXGJUSTHHANQC106" = "靜音一分鐘";
-
-/* Label for button to mute a thread for a week. */
 "XXGJUSTHHANQC107" = "靜音一週";
-
-/* Label for button to mute a thread for a year. */
 "XXGJUSTHHANQC108" = "靜音一年";
-
-/* Indicates that this thread is muted until a given date or time. Embeds {{The date or time which the thread is muted until}}. */
 "XXGJUSTHHANQC109" = "直到%@";
-
-/* Label for 'new contact' button in conversation settings view. */
 "XXGJUSTHHANQC110" = "建立新聯絡人";
-
-/* Table cell label in conversation settings which returns the user to the conversation with 'search mode' activated */
 "XXGJUSTHHANQC111" = "搜尋對話";
-
-/* Label for button that opens conversation settings. */
 "XXGJUSTHHANQC112" = "點擊以變更";
-
-/* Label for button to unmute a thread. */
 "XXGJUSTHHANQC113" = "解除靜音";
-
-/* Indicates that user is in the system contacts list. */
 "XXGJUSTHHANQC114" = "此使用者在你的聯絡人中";
-
-/* Indicates that user's profile has been shared with a group. */
 "XXGJUSTHHANQC115" = "此群組可看見你的資訊";
-
-/* Indicates that user's profile has been shared with a user. */
 "XXGJUSTHHANQC116" = "這個使用者可以看見你的資訊";
-
-/* Button to confirm that user wants to share their profile with a user or group. */
 "XXGJUSTHHANQC117" = "分享資訊";
-
-/* Action that shares user profile with a group. */
 "XXGJUSTHHANQC118" = "分享你的個人資訊";
-
-/* Message shown in conversation view that offers to add an unknown user to your phone's contacts. */
 "XXGJUSTHHANQC120" = "新增到聯絡資訊";
-
-/* Message shown in conversation view that offers to share your profile with a user. */
 "XXGJUSTHHANQC121" = "與這個使用者分享你的個人資訊";
-
-/* Title for the group of buttons show for unknown contacts offering to add them to contacts, etc. */
 "XXGJUSTHHANQC122" = "此使用者不在聯絡資訊中";
-
-/* Indicates that the app is loading more messages in this conversation. */
 "XXGJUSTHHANQC123" = "讀取更多的訊息中...";
-
-/* Indicator on truncated text messages that they can be tapped to see the entire text message. */
 "XXGJUSTHHANQC124" = "點擊已獲得更多資訊";
-
-/* Message shown in conversation view that offers to block an unknown user. */
 "XXGJUSTHHANQC125" = "封鎖這個聯絡人";
-
-/* ActionSheet title */
 "XXGJUSTHHANQC126" = "重設會話將讓你接收來自%@的訊息，但已毀損的訊息將不會被復原。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQC127" = "選擇國碼";
-
-/* Title for the 'crop/scale image' dialog. */
 "XXGJUSTHHANQC128" = "移動與更改大小";
-
-/* Subtitle shown while the app is updating its database. */
 "XXGJUSTHHANQD1" = "這會花點時間。";
-
-/* Title shown while the app is updating its database. */
 "XXGJUSTHHANQD2" = "最佳化資料庫";
-
-/* Format string for a relative time, expressed as a certain number of hours in the past. Embeds {{The number of hours}}. */
 "XXGJUSTHHANQD3" = "%@小時前";
-
-/* Format string for a relative time, expressed as a certain number of minutes in the past. Embeds {{The number of minutes}}. */
 "XXGJUSTHHANQD4" = "%@分鐘前";
-
-/* The present; the current time. */
 "XXGJUSTHHANQD5" = "當前";
-
-/* The current day. */
 "XXGJUSTHHANQD6" = "今天";
-
-/* The day before today. */
 "XXGJUSTHHANQD7" = "昨天";
-
-/* Error indicating that the debug logs could not be copied. */
 "XXGJUSTHHANQD8" = "無法複製日誌。";
-
-/* Error indicating that the debug logs could not be packaged. */
 "XXGJUSTHHANQD9" = "無法打包日誌。";
-
-/* Error indicating that a debug log could not be uploaded. */
 "XXGJUSTHHANQD10" = "無法上傳日誌。";
-
-/* Message of the debug log alert. */
 "XXGJUSTHHANQD11" = "你要怎麼把這連結傳送到這偵錯日誌？";
-
-/* Error indicating that no debug logs could be found. */
 "XXGJUSTHHANQD12" = "無法發現任何日誌。";
-
-/* Label for the 'Open a Bug Report' option of the debug log alert. */
 "XXGJUSTHHANQD13" = "開啟一個錯誤報告";
-
-/* Label for the 'copy link' option of the debug log alert. */
 "XXGJUSTHHANQD14" = "複製連結";
-
-/* Label for the 'email debug log' option of the debug log alert. */
 "XXGJUSTHHANQD15" = "電子郵件支援";
-
-/* Label for the 'send to self' option of the debug log alert. */
 "XXGJUSTHHANQD16" = "傳送給自己";
-
-/* Label for the 'Share' option of the debug log alert. */
 "XXGJUSTHHANQD17" = "分享";
-
-/* Title of the alert shown for failures while uploading debug logs.
-   Title of the debug log alert. */
 "XXGJUSTHHANQD18" = "再一個步驟";
-
-/* Error indicating that the app could not launch the Email app. */
 "XXGJUSTHHANQD19" = "無法開啟電子郵件軟體。";
-
-/* Message of the alert before redirecting to GitHub Issues. */
 "XXGJUSTHHANQD20" = "本連結已複製至剪貼簿。你現在將導至 GitHub 錯誤回報列表。";
-
-/* Title of the alert before redirecting to GitHub Issues. */
 "XXGJUSTHHANQD21" = "重定向至 GitHub";
-
-/* Label for button that lets users re-register using the same phone number. */
 "XXGJUSTHHANQD22" = "重新註冊此電話號碼";
-
-/* Label warning the user that they have been de-registered. */
 "XXGJUSTHHANQD23" = "本裝置不再被註冊。你的電話號碼可能被註冊於不同的裝置。點取來重新註冊。";
-
-/* {{Short Date}} when device last communicated with Tmao Server. */
 "XXGJUSTHHANQD24" = "最近一次上線時間：%@";
-
-/* {{Short Date}} when device was linked. */
 "XXGJUSTHHANQD25" = "從%@已連結";
-
-/* Alert title that can occur when viewing device manager. */
 "XXGJUSTHHANQD26" = "更新裝置列表失敗";
-
-/* table cell label in conversation settings */
 "XXGJUSTHHANQD27" = "自動銷毀訊息";
-
-/* Info Message when added to a group which has enabled disappearing messages. Embeds {{time amount}} before messages disappear, see the *_TIME_AMOUNT strings for context. */
 "XXGJUSTHHANQD28" = "在本對話的訊息將於%@之後消失。";
-
-/* subheading in conversation settings */
 "XXGJUSTHHANQD29" = "開啟此功能後，在對話視窗中寄出或接收的訊息在讀取後銷毀。";
-
-/* Accessibility hint that contains current timeout information */
 "XXGJUSTHHANQD30" = "此訊息在%@後銷毀";
-
-/* Accessibility label for disappearing messages */
 "XXGJUSTHHANQD31" = "自動銷毀訊息設定";
-
-/* Short text to dismiss current modal / actionsheet / screen */
 "XXGJUSTHHANQD32" = "取消";
-
-/* Section title for the 'domain fronting country' view. */
 "XXGJUSTHHANQD33" = "審查規避";
-
-/* Alert body for when the user has just tried to edit a contacts after declining to give Tmao contacts permissions */
 "XXGJUSTHHANQE1" = "你可以在 iOS 設定中允許取用。";
-
-/* Alert title for when the user has just tried to edit a contacts after declining to give Tmao contacts permissions */
 "XXGJUSTHHANQE2" = "Tmao 須要存取聯絡資訊以編輯聯絡人資訊";
-
-/* table cell label in conversation settings */
 "XXGJUSTHHANQE3" = "編輯群組";
-
-/* The navbar title for the 'update group' view. */
 "XXGJUSTHHANQE4" = "編輯群組";
-
-/* An indicator that a user is a new member of the group. */
 "XXGJUSTHHANQE5" = "已新增";
-
-/* The alert message if user tries to exit update group view without saving changes. */
 "XXGJUSTHHANQE6" = "你要儲存對這個群組的變更嗎？";
-
-/* The alert title if user tries to exit update group view without saving changes. */
 "XXGJUSTHHANQE7" = "未儲存的變更";
-
-/* Short name for edit menu item to copy contents of media message. */
 "XXGJUSTHHANQE8" = "複製";
-
-/* body of email sent to contacts when inviting to install Tmao. Embeds {{link to install Tmao}} and {{link to the Tmao home page}} */
 "XXGJUSTHHANQE9" = "嗨，\n\n我最近開始使用 Tmao 來維護在iPhone 上聊天時的隱私安全。我希望你也可以安裝這個軟體，這樣我們就可以放心的傳訊息或講電話。\n\nTmao 在iPhone 及Android 上都可以使用，從這裡下載：%@\n\nTmao 就與現有的通訊軟體一樣，你可以傳圖片或影片、打電話，及群組聊天。最棒的是沒有其他人看得見內容，就算是Tmao 的開發者。\n\n你可以連結到 Open Whisper Systems的網頁去了解更多的細節：%@";
-
-/* subject of email sent to contacts when inviting to install Tmao */
 "XXGJUSTHHANQE10" = "讓我們改用 Tmao";
-
-/* Full width label displayed when attempting to compose message */
 "XXGJUSTHHANQE11" = "你的聯絡資訊中沒有人使用 Tmao。";
-
-/* Full width label displayed when attempting to compose message */
 "XXGJUSTHHANQE12" = "為什麼不邀請朋友呢？";
-
-/* Indicates that user should confirm their 'two factor auth pin'. */
 "XXGJUSTHHANQE13" = "確認你的 PIN 碼。";
-
-/* Error indicating that attempt to disable 'two-factor auth' failed. */
 "XXGJUSTHHANQE14" = "無法關閉註冊鎖定。";
-
-/* Error indicating that attempt to enable 'two-factor auth' failed. */
 "XXGJUSTHHANQE15" = "無法啟動註冊鎖定。";
-
-/* Label for the 'enable two-factor auth' item in the settings view */
 "XXGJUSTHHANQE16" = "關閉";
-
-/* Label for the 'enable two-factor auth' item in the settings view */
 "XXGJUSTHHANQE17" = "啟動";
-
-/* Error indicating that the entered 'two-factor auth PINs' do not match. */
 "XXGJUSTHHANQE19" = "PIN 碼不匹配。";
-
-/* Error indicating that the entered 'two-factor auth PIN' is too long. */
 "XXGJUSTHHANQE20" = "PIN 碼不再能超過20個數字。";
-
-/* Error indicating that the entered 'two-factor auth PIN' is too short. */
 "XXGJUSTHHANQE21" = "PIN 碼必需至少 4 個數字。";
-
-/* Indicates that user should select a 'two factor auth pin'. */
 "XXGJUSTHHANQE22" = "輸入一個註冊鎖定 PIN 碼。未來若你用此電話號碼註冊於 Tmao ，你將被要求輸入這個 PIN 碼。";
-
-/* Indicates that user has 'two factor auth pin' disabled. */
 "XXGJUSTHHANQE23" = "為了增加安全性，未來若要以此電話號碼再次註冊於 Tmao ，你就必須啟動註冊鎖定 PIN 碼。";
-
-/* Indicates that user has 'two factor auth pin' enabled. */
 "XXGJUSTHHANQE24" = "註冊鎖定功能已啟動。未來你若要使用此電話號碼再次註冊於 Tmao，你必須輸入你的 PIN 碼。";
-
-/* Title for the 'enable two factor auth PIN' views. */
 "XXGJUSTHHANQE25" = "註冊鎖定";
-
-/* Call setup status label */
 "XXGJUSTHHANQE26" = "忙線中";
-
-/* Call setup status label */
 "XXGJUSTHHANQE27" = "撥號失敗。";
-
-/* Label indicating that this OS version is no longer supported. */
 "XXGJUSTHHANQE28" = "最新版的 Tmao 功能在此版本的 iOS上無法運作。 請升級此裝置以接收未來的 Tmao 更新。";
-
-/* Error indicating that the phone's contacts could not be retrieved. */
 "XXGJUSTHHANQE29" = "無法讀取聯絡人。";
-
-/* Error indicating that 'save video' failed. */
 "XXGJUSTHHANQE30" = "無法儲存影片。";
-
-/* Generic notice when message failed to send. */
 "XXGJUSTHHANQE31" = "訊息傳送失敗。";
-
-/* Error message indicating that message send is disabled due to prekey update failures */
 "XXGJUSTHHANQE32" = "因過舊的密鑰資料而無法傳送。";
-
-/* Error message indicating that message send failed due to block list */
 "XXGJUSTHHANQE33" = "無法傳送訊息給此人，因為被你封鎖了。";
-
-/* Generic error used whenever Tmao can't contact the server */
 "XXGJUSTHHANQE34" = "Tmao 無法連接網際網路，請再重試一遍。";
-
-/* Error indicating that an outgoing message had no valid recipients. */
 "XXGJUSTHHANQE35" = "訊息無法傳送，因為沒有有效的傳送對象。";
-
-/* Error indicating that a socket request failed. */
 "XXGJUSTHHANQE36" = "連線要求失敗。";
-
-/* Error indicating that a socket request timed out. */
 "XXGJUSTHHANQE37" = "網路要求超時。";
-
-/* Error indicating that a socket response failed. */
 "XXGJUSTHHANQE38" = "服務的無效回應。";
-
-/* Error message when attempting to send message */
 "XXGJUSTHHANQE39" = "你的電話號碼不再註冊於本裝置。請重新安裝 Tmao。";
-
-/* Generic server error */
 "XXGJUSTHHANQE40" = "伺服器錯誤。請稍候再試。";
-
-/* Worst case generic error message */
 "XXGJUSTHHANQE41" = "未知錯誤發生。";
-
-/* Error message when attempting to send message */
 "XXGJUSTHHANQE42" = "此聯絡人不是 Tmao 使用者。";
-
-/* Error message indicating that attachment download(s) failed. */
 "XXGJUSTHHANQE43" = "附件下載失敗。";
-
-/* Error message when unable to receive an attachment because the sending client is too old. */
 "XXGJUSTHHANQE44" = "附檔失敗：請要求此聯絡人更新到Tmao最新版本，並再重傳一次。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQE45" = "接收到重複的訊息。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQE46" = "接收者的金鑰無效。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQE47" = "收到的訊息沒有被同步。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQE48" = "接收到的訊息並不相容於此版本。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQE49" = "沒有對象的會話。";
-
-/* Shown when signal users safety numbers changed */
 "XXGJUSTHHANQE50" = "安全碼已經改變。";
-
-/* Shown when signal users safety numbers changed, embeds the user's {{name or phone number}} */
 "XXGJUSTHHANQE51" = "你與 %@ 的安全碼已經改變。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQE52" = "未知的錯誤發生。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQE53" = "安全碼已變更。";
-
-/* Error indicating a send failure due to a delinked application. */
 "XXGJUSTHHANQE54" = "你的裝置已不再與其他裝置連結。請重新連結以發送更多訊息。";
-
-/* Error indicating a send failure due to a deregistered application. */
 "XXGJUSTHHANQE55" = "你的裝置不再被註冊。請重新註冊以傳送更堆訊息。";
-
-/* Error indicating a send failure due to an expired application. */
 "XXGJUSTHHANQE56" = "你的 Tmao 版本已過期。請更新以傳送訊息。";
-
-/* Format string for 'unregistered user' error. Embeds {{the unregistered user's name or signal id}}. */
 "XXGJUSTHHANQE57" = "未註冊的使用者: %@";
-
-/* Label notifying the user that the app has expired. */
 "XXGJUSTHHANQE58" = "你的 Tmao 版本已過期！訊息將無法成功傳送。點擊以更新到最新版本。";
-
-/* Label warning the user that the app will expire soon. */
 "XXGJUSTHHANQE59" = "您的 Tmao 版本將於 %d 日內到期，請更新至最新版本。";
-
-/* Label warning the user that the app will expire today. */
 "XXGJUSTHHANQE60" = "您的 Tmao 版本今日到期，請更新至最新版本。";
-
-/* action sheet header when re-sending message which failed because of too many attempts */
 "XXGJUSTHHANQF1" = "此聯繫人失敗太多次，請稍後再試。";
-
-/* action sheet header when re-sending message which failed because of untrusted identity keys */
 "XXGJUSTHHANQF2" = "你與%@的安全碼最近已改變。請與對方驗證後再重傳一次訊息。";
-
-/* alert title */
 "XXGJUSTHHANQF3" = "驗證安全碼失敗！";
-
-/* Button that marks user as verified after a successful fingerprint scan. */
 "XXGJUSTHHANQF4" = "標記為已驗證";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQF5" = "重設會話";
-
-/* Accessibility label for finishing new group */
 "XXGJUSTHHANQF6" = "完成創建群組";
-
-/* Label and title for 'contact forwarding' views. */
 "XXGJUSTHHANQF7" = "轉寄聯絡人";
-
-/* Label and title for 'message forwarding' views. */
 "XXGJUSTHHANQF8" = "轉寄訊息";
-
-/* Label indicating media gallery is empty */
 "XXGJUSTHHANQG1" = "你在此對話中沒有任何多媒體檔案。";
-
-/* Label indicating loading is in progress */
 "XXGJUSTHHANQG2" = "讀取較新的媒體檔中...";
-
-/* Label indicating loading is in progress */
 "XXGJUSTHHANQG3" = "讀取較舊的媒體檔中...";
-
-
-/* Error displayed when there is a failure fetching a GIF from the remote service. */
 "XXGJUSTHHANQG4" = "無法讀取所要求的 GIF。請確認你是否在線上。";
-
-/* Generic error displayed when picking a GIF */
 "XXGJUSTHHANQG5" = "一個未知的錯誤發生。";
-
-/* Shown when selected GIF couldn't be fetched */
 "XXGJUSTHHANQG6" = "無法選擇 GIF";
-
-/* Alert message shown when user tries to search for GIFs without entering any search terms. */
 "XXGJUSTHHANQG7" = "請輸入你的搜尋。";
-
-/* Title for the 'GIF picker' dialog. */
 "XXGJUSTHHANQG8" = "GIF 搜尋";
-
-/* Indicates that an error occurred while searching. */
 "XXGJUSTHHANQG9" = "錯誤。點擊重試。";
-
-/* Indicates that the user's search had no results. */
 "XXGJUSTHHANQG10" = "沒有結果。";
-
-/* Placeholder text for the search field in GIF view */
 "XXGJUSTHHANQG11" = "輸入你的搜尋";
-
-/* Body message of notification shown during GRDB migration indicating that user may need to open app to view their content. */
 "XXGJUSTHHANQG12" = "此版本的 Tmao 包括資料庫的最佳化及效能的改善。你可能須要開啟應用程式才能完成該過程。";
-
-/* Title of notification shown during GRDB migration indicating that user may need to open app to view their content. */
 "XXGJUSTHHANQG13" = "最佳化資料庫";
-
-/* conversation history entry */
 "XXGJUSTHHANQG14" = "群組已建立。";
-
-/* conversation history entry when the local user created a group */
 "XXGJUSTHHANQG15" = "你建立了一個群組。";
-
-/* conversation history entry after a remote user added you to a group. Embeds {{remote user name}} */
 "XXGJUSTHHANQG16" = "%@新增你到此群組。";
-
-/* Message shown in conversation view that indicates there were issues with group creation. */
 "XXGJUSTHHANQG17" = "不是所有的組員都可以加入此群組。請點擊重試。";
-
-/* Conversation settings table section title */
 "XXGJUSTHHANQG18" = "群組管理";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQG19" = "%@離開了群組。";
-
-/* Button label for the 'call group member' button */
 "XXGJUSTHHANQG20" = "撥打";
-
-/* Label for the button that clears all verification errors in the 'group members' view. */
 "XXGJUSTHHANQG21" = "清除所有人的驗證";
-
-/* Label for the 'reset all no-longer-verified group members' confirmation alert. */
 "XXGJUSTHHANQG22" = "這會清除群組中所有自最後一次驗證以來安全碼改變的組員的驗證。";
-
-/* Title for the 'members' section of the 'group members' view. */
 "XXGJUSTHHANQG23" = "組員";
-
-/* Title for the 'no longer verified' section of the 'group members' view. */
 "XXGJUSTHHANQG24" = "不再標示為已驗證";
-
-/* conversation history entry */
 "XXGJUSTHHANQG26" = "群組已更新。";
-
-/* conversation history entry.  embeds {0: all but the final member} and {1: the final member} */
 "XXGJUSTHHANQG27" = "%@及%@加入了此群組。";
-
-/* conversation history entry. Embeds the {{added user's name}} */
 "XXGJUSTHHANQG28" = "%@已加入了此群組。";
-
-/* conversation history entry */
 "XXGJUSTHHANQG29" = "已移除了此群組的頭像。";
-
-/* conversation history entry */
 "XXGJUSTHHANQG30" = "已更新了此群組的頭像。";
-
-/* conversation history entry. */
 "XXGJUSTHHANQG31" = "你已更新群組。";
-
-/* conversation history entry. Embeds {{remote user's name}} */
 "XXGJUSTHHANQG32" = "%@更新了此群組。";
-
-/* conversation history entry */
 "XXGJUSTHHANQG33" = "已移除了此名字。";
-
-/* conversation history entry. Embeds {{group name}} */
 "XXGJUSTHHANQG34" = "群組名稱現在是\"%@\"。";
-
-/* conversation history entry */
 "XXGJUSTHHANQG35" = "將你重新新增到該群組。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQG36" = "你已退出了群組。";
-
-/* Label for 'archived conversations' button. */
 "XXGJUSTHHANQH1" = "封存對話";
-
-/* Table cell subtitle label for a conversation the user has blocked. */
 "XXGJUSTHHANQH2" = "已封鎖";
-
-/* Placeholder text for search bar which filters conversations. */
 "XXGJUSTHHANQH3" = "搜尋";
-
 "XXGJUSTHHANQH4" = "開始找小夥伴";
-
-/* Format string for a label offering to start a new conversation with your contacts, if you have 1 Tmao contact.  Embeds {{The name of 1 of your Tmao contacts}}. */
 "XXGJUSTHHANQH5" = "有些你的聯絡人已經在使用 Tmao了，包括%@。";
-
-/* Format string for a label offering to start a new conversation with your contacts, if you have 2 Tmao contacts.  Embeds {{The names of 2 of your Tmao contacts}}. */
 "XXGJUSTHHANQH6" = "有些你的聯絡人已經在使用Tmao 了，包括 %@ 及%@。";
-
-/* Format string for a label offering to start a new conversation with your contacts, if you have at least 3 Tmao contacts.  Embeds {{The names of 3 of your Tmao contacts}}. */
 "XXGJUSTHHANQH7" = "有些你的聯絡人已經在使用 Tmao 了，包括 %@、%@及%@。";
-
-/* A label offering to start a new conversation with your contacts, if you have no Tmao contacts. */
 "XXGJUSTHHANQH8" = "從這裡開始使用你的第一個對話。";
-
-/* Table cell subtitle label for a conversation the user has not accepted. */
 "XXGJUSTHHANQH9" = "訊息要求";
-
-/* Format string when search returns no results. Embeds {{search term}} */
 "XXGJUSTHHANQH10" = "找不到有關 '%@' 的結果";
-
-/* Momentarily shown to the user when attempting to select more images than is allowed. Embeds {{max number of items}} that can be shared. */
 "XXGJUSTHHANQI1" = "你無法分享超過%@個項目。";
-
-/* alert title */
 "XXGJUSTHHANQI2" = "無法選擇附檔。";
-
-/* Call setup status label */
 "XXGJUSTHHANQI3" = "連接中...";
-
-/* Call setup status label */
 "XXGJUSTHHANQI4" = "重新連接中...";
-
-/* Call setup status label */
 "XXGJUSTHHANQI5" = "響鈴中...";
-
-/* Call setup status label */
 "XXGJUSTHHANQI6" = "已接通。加密中...";
-
-/* Call setup status label */
 "XXGJUSTHHANQI7" = "結束通話。";
-
-/* Label reminding the user that they are in archive mode. */
 "XXGJUSTHHANQI8" = "這些對話已經封存，並只有在收到新訊息時才會顯示在收件箱中。";
-
-/* Message shown in the conversation list when the inbox is empty. */
 "XXGJUSTHHANQI9" = "快來一起聊天吧!";
-
-/* Multi-line label explaining how to show names instead of phone numbers in your inbox */
 "XXGJUSTHHANQI10" = "你可以在 iOS設定中允許取用聯絡資訊，以在你的 Tmao 對話清單中見到聯絡人名稱。";
-
-/* info message text in conversation view */
 "XXGJUSTHHANQI11" = "來電...";
-
-/* info message recorded in conversation history when local user declined a call */
 "XXGJUSTHHANQI12" = "你拒絕了來電";
-
-/* info message text in conversation view */
 "XXGJUSTHHANQI13" = "來電";
-
-/* info message text shown in conversation view */
 "XXGJUSTHHANQI14" = "未接來電，因聯絡人的安全碼改變。";
-
-/* Shown in inbox and conversation after syncing as a placeholder indicating why your message history is missing. */
 "XXGJUSTHHANQI15" = "你可以從手機或iPad傳送或接收同步的訊息。↵為了安全起見，對話紀錄不會轉移到新的連結裝置上。";
-
-/* Shown in inbox and conversation when a user joins Tmao, embeds the new user's {{contact name}} */
 "XXGJUSTHHANQI16" = "%@在 Tmao 上!";
-
-/* accessibility label for the button which shows the sticker picker */
 "XXGJUSTHHANQI17" = "貼圖";
-
-
-/* Message for the alert indicating that an audio file is invalid. */
 "XXGJUSTHHANQI18" = "無效的音訊檔。";
-
-/* Alert body when contacts disabled while trying to invite contacts to signal */
 "XXGJUSTHHANQI19" = "你可以在 iOS設定中允許取用聯絡資訊來邀請你的朋友加入 Tmao。";
-
-/* Alert title when contacts disabled while trying to invite contacts to signal */
 "XXGJUSTHHANQI20" = "允許聯絡資訊存取";
-
-/* Label for the cell that presents the 'invite contacts' workflow. */
 "XXGJUSTHHANQI21" = "邀請朋友使用 Tmao";
-
-/* Navbar title */
 "XXGJUSTHHANQI23" = "邀請朋友";
-
-/* Alert warning that sending an invite to multiple users will create a group message whose recipients will be able to see each other. */
 "XXGJUSTHHANQI24" = "同時邀請多個使用者降啟動群組訊息功能，接收者將因此可以見到對方。";
-
-/* Slider label embeds {{TIME_AMOUNT}}, e.g. '2 hours'. See *_TIME_AMOUNT strings for examples. */
 "XXGJUSTHHANQK1" = "訊息在%@後消毀。";
-
-/* Slider label when disappearing messages is off */
 "XXGJUSTHHANQK2" = " 訊息不會銷毀。";
-
-/* A keyboard command to open the current conversation's all media view. */
 "XXGJUSTHHANQK3" = "前往所有的媒體";
-
-/* A keyboard command to archive the current coversation. */
 "XXGJUSTHHANQK4" = "封存對話";
-
-/* A keyboard command to open the current conversation's attachment picker. */
 "XXGJUSTHHANQK5" = "顯示附件";
-
-/* A keyboard command to open the current conversation's settings. */
 "XXGJUSTHHANQK6" = "前往對話資訊";
-
-/* A keyboard command to focus the current conversation's input field. */
 "XXGJUSTHHANQK7" = "焦點輸入列";
-
-/* A keyboard command to open the current conversations GIF picker. */
 "XXGJUSTHHANQK8" = "前往 GIF 搜尋";
-
-/* A keyboard command to present the new group dialog. */
 "XXGJUSTHHANQK9" = "新群組";
-
-/* A keyboard command to present the new message dialog. */
 "XXGJUSTHHANQK10" = "新訊息";
-
-/* A keyboard command to jump to the next conversation in the list. */
 "XXGJUSTHHANQK11" = "前往下一個對話";
-
-/* A keyboard command to jump to the previous conversation in the list. */
 "XXGJUSTHHANQK12" = "前往前一個對話";
-
-/* A keyboard command to present the application settings dialog. */
 "XXGJUSTHHANQK13" = "設定";
-
-/* A keyboard command to open the current conversation's sticker picker. */
 "XXGJUSTHHANQK14" = "顯示貼圖";
-
-/* A keyboard command to unarchive the current coversation. */
 "XXGJUSTHHANQK15" = "不封存對話";
-
-/* Confirmation button within contextual alert */
 "XXGJUSTHHANQL1" = "離開";
-
-/* table cell label in conversation settings */
 "XXGJUSTHHANQL2" = "離開群組";
-
-/* report an invalid linking code */
 "XXGJUSTHHANQL3" = "這個 QR 碼無效。請確定您正在掃描要連接的裝置上顯示的QR碼。";
-
-/* report an invalid linking code */
 "XXGJUSTHHANQL4" = "裝置連結失敗";
-
-/* confirm the users intent to link a new device */
 "XXGJUSTHHANQL5" = "本裝置將可見到你的群組、聯絡人、連接你的對話及以你的名字傳送訊息。";
-
-/* confirm the users intent to link a new device */
 "XXGJUSTHHANQL6" = "連結裝置？";
-
-/* attempt another linking */
 "XXGJUSTHHANQL7" = "重試";
-
-/* QR Scanning screen instructions, placed alongside a camera view for scanning QR Codes */
 "XXGJUSTHHANQL8" = "請掃描要連接的裝置上顯示的 QR 碼。";
-
-/* Subheading for 'Link New Device' navigation */
 "XXGJUSTHHANQL9" = "掃描 QR code";
-
-/* Navigation title when scanning QR code to add new device. */
 "XXGJUSTHHANQL10" = "連結新的裝置";
-
-/* Label for link previews with an unknown host. */
 "XXGJUSTHHANQL11" = "連結預覽";
-
-/* Menu item and navbar title for the device manager */
 "XXGJUSTHHANQL12" = "連結裝置";
-
-/* Alert Title */
 "XXGJUSTHHANQL13" = "裝置連結失敗";
-
-/* table cell label in conversation settings */
 "XXGJUSTHHANQL14" = "群組組員";
-
-/* A string indicating that the user can search for a location */
 "XXGJUSTHHANQL15" = "以名字或地址來搜尋";
-
-/* The title for the location picker view */
 "XXGJUSTHHANQL16" = "選擇位置";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQL17" = "紀錄中";
-
-/* nav bar button item */
 "XXGJUSTHHANQM1" = "所有的多媒體檔案";
-
-
-/* media picker option to choose from library */
 "XXGJUSTHHANQM2" = "照片庫";
-
-/* Confirmation button text to delete selected media from the gallery, embeds {{number of messages}} */
 "XXGJUSTHHANQM3" = "刪除 %d 訊息";
-
-/* Confirmation button text to delete selected media message from the gallery */
 "XXGJUSTHHANQM4" = "刪除訊息";
-
-/* Format for the 'more items' indicator for media galleries. Embeds {{the number of additional items}}. */
 "XXGJUSTHHANQM5" = "+%@";
-
-/* Section header in media gallery collection view */
 "XXGJUSTHHANQM7" = "本月";
-
-/* button title to snooze a megaphone */
 "XXGJUSTHHANQM8" = "稍後提醒我";
-
-/* toast indicating that we will remind the user later */
 "XXGJUSTHHANQM9" = "我們將稍後提醒你。";
-
-/* Action sheet button title */
 "XXGJUSTHHANQM10" = "複製訊息文字";
-
-/* Action sheet button title */
 "XXGJUSTHHANQM11" = "刪除此訊息";
-
-/* Action sheet button title */
 "XXGJUSTHHANQM12" = "更多資訊";
-
-/* Action sheet button title */
 "XXGJUSTHHANQM13" = "轉寄此訊息";
-
-/* Action sheet button title */
 "XXGJUSTHHANQM14" = "回覆這個訊息";
-
-/* Action sheet button title */
 "XXGJUSTHHANQM15" = "分享多媒體檔案";
-
-/* Label for file size of attachments in the 'message metadata' view. */
 "XXGJUSTHHANQM16" = "檔案大小";
-
-/* Label for the MIME type of attachments in the 'message metadata' view. */
 "XXGJUSTHHANQM17" = "MIME 類型";
-
-/* Status label for messages which are delivered. */
 "XXGJUSTHHANQM18" = "已傳送";
-
-/* Status label for messages which are failed. */
 "XXGJUSTHHANQM19" = "失敗";
-
-/* Status label for messages which are read. */
 "XXGJUSTHHANQM20" = "已讀";
-
-/* Status label for messages which are sending. */
 "XXGJUSTHHANQM21" = "傳送中";
-
-/* Status label for messages which are sent. */
 "XXGJUSTHHANQM22" = "已傳送";
-
-/* Status label for messages which were skipped. */
 "XXGJUSTHHANQM23" = "略過";
-
-/* Status label for messages which are uploading. */
 "XXGJUSTHHANQM24" = "上傳中";
-
-/* Label for messages without a body or attachment in the 'message metadata' view. */
 "XXGJUSTHHANQM25" = "該訊息沒有內容或附件。";
-
-/* Label for the 'received date & time' field of the 'message metadata' view. */
 "XXGJUSTHHANQM26" = "已接收";
-
-/* Label for the 'sender' field of the 'message metadata' view. */
 "XXGJUSTHHANQM27" = "發件人";
-
-/* Label for the 'sent date & time' field of the 'message metadata' view. */
 "XXGJUSTHHANQM28" = "已送出";
-
-/* Label for the original filename of any attachment in the 'message metadata' view. */
 "XXGJUSTHHANQM29" = "檔案名稱";
-
-/* Title for the 'message metadata' view. */
 "XXGJUSTHHANQM30" = "簡訊";
-
-/* A button used to block a user on an incoming message request. */
 "XXGJUSTHHANQM31" = "接受";
-
-/* A button used to block a user on an incoming message request. */
 "XXGJUSTHHANQM32" = "刪除";
-
-/* A prompt notifying that the user must share their profile with this conversation. Embeds {{contact name}}. */
 "XXGJUSTHHANQM33" = "你必須與%@分享你的個人資料以繼續你的對話。";
-
-/* A prompt notifying that the user must share their profile with this group. Embeds {{group name}}. */
 "XXGJUSTHHANQM34" = "你必須與%@分享你的個人資料以繼續你的對話。";
-
-/* A button used to learn more about why you must share your profile. */
 "XXGJUSTHHANQM35" = "了解更多";
-
-/* A prompt asking if the user wants to accept a conversation invite. Embeds {{contact name}}. */
 "XXGJUSTHHANQM36" = "你願意讓%@傳給你訊息嗎？他們不知道你已經讀過他們的訊息直到你接受。";
-
-/* A prompt asking if the user wants to accept a group invite. Embeds {{group name}}. */
 "XXGJUSTHHANQM37" = "你要加入這個%@群組嗎？他們不知道你已經讀過他們的訊息直到你接受。";
-
-/* A button used to share your profile with an existing thread. */
 "XXGJUSTHHANQM38" = "分享資訊";
-
-/* message status for message delivered to their recipient. */
 "XXGJUSTHHANQM39" = "已傳送";
-
-/* message status while message is downloading. */
 "XXGJUSTHHANQM40" = "下載中...";
-
-/* status message for failed messages */
 "XXGJUSTHHANQM41" = "傳送失敗";
-
-/* status message for failed messages */
 "XXGJUSTHHANQM42" = "失敗";
-
-/* status message for read messages */
 "XXGJUSTHHANQM43" = "已讀";
-
-/* message status if message delivery to a recipient is skipped. We skip delivering group messages to users who have left the group or unregistered their Tmao account. */
 "XXGJUSTHHANQM44" = "略過";
-
-/* Label indicating that a message failed to send. */
 "XXGJUSTHHANQM45" = "傳送失敗";
-
-/* message status while message is sending. */
 "XXGJUSTHHANQM46" = "傳送中...";
-
-/* status message for sent messages */
 "XXGJUSTHHANQM47" = "已傳送";
-
-/* status message while attachment is uploading */
 "XXGJUSTHHANQM48" = "上傳中...";
-
-/* Indicates that one member of this group conversation is no longer verified. Embeds {{user's name or phone number}}. */
 "XXGJUSTHHANQM49" = "%@已不再標記為已驗證。點擊開啟選項。";
-
-/* Indicates that this 1:1 conversation has been blocked. */
 "XXGJUSTHHANQM50" = "你封鎖了此使用者";
-
-/* Indicates that this 1:1 conversation is no longer verified. Embeds {{user's name or phone number}}. */
 "XXGJUSTHHANQM51" = "%@已不再標記為已驗證。點擊開啟選項。";
-
-/* Indicates that a single member of this group has been blocked. */
 "XXGJUSTHHANQM52" = "你封鎖了此群組的一個組員";
-
-/* Indicates that this group conversation has been blocked. */
 "XXGJUSTHHANQM53" = "你已封鎖了這個群組";
-
-/* Indicates that some members of this group has been blocked. Embeds {{the number of blocked users in this group}}. */
 "XXGJUSTHHANQM54" = "你封鎖了此群組中的 %@個組員";
-
-/* Indicates that more than one member of this group conversation is no longer verified. */
 "XXGJUSTHHANQM55" = "此群組中多個組員不再標記為已驗證。點擊開啟選項。";
-
-/* The subtitle for the messages view title indicates that the title can be tapped to access settings for this conversation. */
 "XXGJUSTHHANQM56" = "點擊這裡前往設定";
-
-/* info message text in conversation view */
 "XXGJUSTHHANQM57" = "未接來電";
-
-/* Alert body */
 "XXGJUSTHHANQM58" = "你可以在 iOS 設定中允許取用相機以在 Tmao 中使用影像電話。";
-
-/* Alert title */
 "XXGJUSTHHANQM59" = "Tmao要求使用你的相機";
-
-/* Alert body indicating the user has denied location permissios */
 "XXGJUSTHHANQM60" = "你可以在 iOS 設定中允許此權限。";
-
-/* Alert title indicating the user has denied location permissios */
 "XXGJUSTHHANQM61" = "Tmao 在此功能上要求存取你的位置。";
-
-/* Alert body when user has previously denied media library access */
 "XXGJUSTHHANQM62" = "你可以在 iOS 設定中允許此權限。";
-
-/* Alert title when user has previously denied media library access */
 "XXGJUSTHHANQM63" = "Tmao 要求取用你的照片才能使用此功能。";
-
-/* alert title: cannot link - reached max linked devices */
 "XXGJUSTHHANQM64" = "你無法連結更多的裝置。";
-
-/* alert body: cannot link - reached max linked devices */
 "XXGJUSTHHANQM65" = "你已達到目前可以與本帳戶連結的裝置最大數量。 請刪除一個裝置，然後重試。";
-
-/* An explanation of the consequences of muting a thread. */
 "XXGJUSTHHANQM66" = "你將無法自禁言的對話收到通知。";
-
-/* A button to skip a view. */
 "XXGJUSTHHANQN1" = "跳過";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN2" = "請確認是否在線上，並再重試。";
-
-/* Indicates to the user that censorship circumvention has been activated. */
 "XXGJUSTHHANQN3" = "審查規避：開啟";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN4" = "已連結";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN5" = "連線中";
-
-/* Error indicating that this device is no longer linked. */
 "XXGJUSTHHANQN6" = "設備未關聯";
-
-/* Error indicating that this device is no longer registered. */
 "XXGJUSTHHANQN7" = "未註冊";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN8" = "網路狀態";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN9" = "離線";
-
-/* A label the cell that lets you add a new member to a group. */
 "XXGJUSTHHANQN10" = "以電話號碼搜尋";
-
-/* Action Sheet title prompting the user for a group avatar */
 "XXGJUSTHHANQN11" = "設定群組照片";
-
-/* Accessibility label for the new group button */
 "XXGJUSTHHANQN12" = "開啟一個新群組";
-
-/* The title for the 'create group' button. */
 "XXGJUSTHHANQN13" = "建立";
-
-/* Error indicating that a new group could not be created. */
 "XXGJUSTHHANQN14" = "新群組無法被建立。";
-
-/* Used in place of the group name when a group has not yet been named. */
 "XXGJUSTHHANQN15" = "新群組";
-
-/* An indicator that a user is a member of the new group. */
 "XXGJUSTHHANQN16" = "組員";
-
-/* notification title. Embeds {{author name}} and {{group name}} */
 "XXGJUSTHHANQN17" = "%@ 傳送至 %@";
-
-/* Placeholder text for group name field */
 "XXGJUSTHHANQN18" = "為此群組命名";
-
-/* a title for the selected section of the 'recipient picker' view. */
 "XXGJUSTHHANQN19" = "其他使用者";
-
-/* The alert message if user tries to exit the new group view without saving changes. */
 "XXGJUSTHHANQN20" = "你要放棄這些修改嗎？";
-
-/* The alert title if user tries to exit the new group view without saving changes. */
 "XXGJUSTHHANQN21" = "未儲存的修改";
-
-/* Title for the 'new non-contact conversation' view. */
 "XXGJUSTHHANQN22" = "尋找使用者";
-
-/* Label for a button that lets users search for contacts by phone number */
 "XXGJUSTHHANQN23" = "透過手機號碼搜尋聯絡人";
-
-/* Explanation of how to see a conversation. */
 "XXGJUSTHHANQN24" = "選擇一個聯絡人或群組開始聊天。";
-
-/* Title welcoming to the app */
 "XXGJUSTHHANQN25" = "歡迎來到 Tmao";
-
-/* A string prompting the user to send a new mesaage to a user */
 "XXGJUSTHHANQN26" = "新訊息給:";
-
-/* A string asking the user if they'd like to invite a number to signal via SMS. */
 "XXGJUSTHHANQN27" = "找不到使用者，透過簡訊邀請嗎?";
-
-/* Label for 1:1 conversation with yourself. */
 "XXGJUSTHHANQN28" = "給自己的筆記";
-
-/* Lock screen notification text presented after user powers on their device without unlocking. Embeds {{device model}} (either 'iPad' or 'iPhone') */
 "XXGJUSTHHANQN29" = "當你的%@重新起動時，你還是可以接收訊息。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN30" = "操作包括“標記為已讀”，“回覆”和“回電”。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN31" = "不顯示名字或內容";
-
-/* Table cell switch label. When disabled, Tmao will not play notification sounds while the app is in the foreground. */
 "XXGJUSTHHANQN32" = "在程式開啟時播放";
-
-/* Label for settings UI that allows user to change the notification sound. */
 "XXGJUSTHHANQN33" = "音效";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN34" = "姓名，內容和操作        ";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN35" = "只顯示名字";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQN36" = " 顯示";
-
-/* No comment provided by engineer. */
 "OK" = "OK";
-
-/* Label indicating that the 2fa pin is exhausted in the 'onboarding 2fa' view. */
 "XXGJUSTHHANQO1" = "PIN 碼錯誤。你嘗試次數已用盡。";
-
-/* Button asking if the user would like to enter an alphanumeric PIN */
 "XXGJUSTHHANQO2" = "輸入字母數字PIN 碼";
-
-/* Button asking if the user would like to enter an numeric PIN */
 "XXGJUSTHHANQO3" = "輸入數字PIN 碼";
-
-/* The first explanation in the 'onboarding 2FA' view. */
 "XXGJUSTHHANQO4" = "此電話號碼已啟用註冊鎖定。請輸入註冊鎖定 PIN 碼。";
-
-/* The first explanation in the 'onboarding 2FA' view. */
 "XXGJUSTHHANQO5" = "你的註冊鎖定PIN碼與你上一步驟傳到你手機的驗證碼是不同的。";
-
-/* Label for the 'forgot 2FA PIN' link in the 'onboarding 2FA' view. */
 "XXGJUSTHHANQO6" = "忘記你的 PIN 碼？";
-
-/* Label indicating that the 2fa pin is invalid in the 'onboarding 2fa' view. */
 "XXGJUSTHHANQO7" = "錯誤的 PIN 碼";
-
-/* Label indicating that the 2fa pin is invalid with a retry count other than one in the 'onboarding 2fa' view. */
 "XXGJUSTHHANQO8" = "PIN 碼錯誤。剩下 %lu 次嘗試次數。";
-
-/* Label indicating that the 2fa pin is invalid with a retry count of one in the 'onboarding 2fa' view. */
 "XXGJUSTHHANQO9" = "PIN 碼錯誤。剩下 1 次嘗試次數。";
-
-/* Title of the 'onboarding 2FA' view. */
 "XXGJUSTHHANQO10" = "註冊鎖定";
-
-/* Explanation of the 'onboarding account locked' view. */
 "XXGJUSTHHANQO11" = "為了保護你的隱私和帳戶的安全，我們將其鎖定了7天。\n\n閒置7天後，你無須輸入 PIN 碼即可重新註冊此電話號碼。 所有內容都將被刪除。";
-
-/* Label for the 'learn more' link in the 'onboarding account locked' view. */
 "XXGJUSTHHANQO12" = "了解更多有關已鎖定的帳號";
-
-/* Title of the 'onboarding account locked' view. */
 "XXGJUSTHHANQO13" = "帳號已被鎖定";
-
-/* Title of the 'onboarding Captcha' view. */
 "XXGJUSTHHANQO14" = "為你的訊息增加一點人性。";
-
-/* button indicating that the user will register their ipad */
 "XXGJUSTHHANQO15" = "註冊 iPad";
-
-/* button indicating that the user will link their phone */
 "XXGJUSTHHANQO16" = "連結 iPhone";
-
-/* explanation to the user they're switching from linking to registering flow */
 "XXGJUSTHHANQO17" = "點擊“註冊iPad”將使你可以建立一個全新的Tmao帳號或將現有帳號移至此iPad。 這將在現有使用相同電話號碼註冊的任何其他裝置上禁用 Tmao。";
-
-/* explanation to the user they're switching from registering to linking flow */
 "XXGJUSTHHANQO18" = "點擊“連結iPhone”將使你將手機連結到現有帳號。 通常不建議連結手機，這會限制某些功能，例如通話。";
-
-/* header text indicating to the user they're switching from linking to registering flow */
 "XXGJUSTHHANQO19" = "註冊於此 iPad";
-
-/* header text indicating to the user they're switching from registering to linking flow */
 "XXGJUSTHHANQO20" = "連結此 iPhone";
-
-/* warning to the user that registering an ipad is not recommended */
 "XXGJUSTHHANQO21" = "註冊此iPad將在現有使用相同電話號碼註冊的任何其他裝置上禁用Tmao。";
-
-/* warning to the user that linking a phone is not recommended */
 "XXGJUSTHHANQO22" = "不建議你連結 iPhone，這會限制核心功能。";
-
-/* Label for the 'give access' button in the 'onboarding permissions' view. */
 "XXGJUSTHHANQO23" = "開啟權限";
-
-/* Explanation in the 'onboarding permissions' view. */
 "XXGJUSTHHANQO24" = "您的任何信息都是加密傳送的";
-
-/* Title of the 'onboarding permissions' view. */
 "XXGJUSTHHANQO25" = "邀您開通權限";
-
-/* Title of the 'onboarding phone number' view. */
 "XXGJUSTHHANQO26" = "歡迎登錄";
-
-/* Label indicating that the phone number is invalid in the 'onboarding phone number' view. */
 "XXGJUSTHHANQO27" = "無效號碼";
-
-/* Title of the 'onboarding PIN' view. */
 "XXGJUSTHHANQO28" = "輸入你為帳戶建立的 PIN 碼。 這與你的簡訊驗證碼不同。";
-
-/* Title of the 'onboarding PIN' view. */
 "XXGJUSTHHANQO29" = "輸入你的 PIN 碼";
-
-/* Link to the 'terms and privacy policy' in the 'onboarding splash' view. */
 "XXGJUSTHHANQO30" = "服務條款與隱私政策";
-
-/* Title of the 'onboarding splash' view. */
 "XXGJUSTHHANQO31" = "保護你的隱私。\n在每個訊息中做你自己。";
-
-/* Label for the link that lets users change their phone number in the onboarding views. */
 "XXGJUSTHHANQO32" = "錯誤的號碼？";
-
-/* Format for the label of the 'sent code' label of the 'onboarding verification' view. Embeds {{the time until the code can be resent}}. */
 "XXGJUSTHHANQO33" = "我沒有收到驗證碼(由%@提供)";
-
-/* action sheet item shown after a number of failures to receive a verificaiton SMS during registration */
 "XXGJUSTHHANQO34" = "聯絡 Tmao 支援";
-
-/* Label indicating that the verification code is incorrect in the 'onboarding verification' view. */
 "XXGJUSTHHANQO35" = "這個驗證碼是不正確的。";
-
-/* Label for link that can be used when the original code did not arrive. */
 "XXGJUSTHHANQO36" = "我沒有收到驗證碼。";
-
-/* Message for the 'resend code' alert in the 'onboarding verification' view. */
 "XXGJUSTHHANQO37" = "請確認你的手機網路服務可以收到 SMS訊息。";
-
-/* Title for the 'resend code' alert in the 'onboarding verification' view. */
 "XXGJUSTHHANQO38" = "沒有收到驗證碼？";
-
-/* Label for the 'resend code by SMS' button in the 'onboarding verification' view. */
 "XXGJUSTHHANQO39" = "重新傳送認證碼";
-
-/* Label for the 'resend code by voice' button in the 'onboarding verification' view. */
 "XXGJUSTHHANQO40" = "改用電話撥給我";
-
-/* Label for link that can be used when the resent code did not arrive. */
 "XXGJUSTHHANQO41" = "還是沒有收到驗證碼？";
-
-/* Format for the title of the 'onboarding verification' view. Embeds {{the user's phone number}}. */
 "XXGJUSTHHANQO42" = "請輸入我們傳送給 %@ 的驗證碼。";
-
-/* Format for the title of the 'onboarding verification' view after the verification code has been resent. Embeds {{the user's phone number}}. */
 "XXGJUSTHHANQO43" = "我們剛重傳一個驗證碼給 %@";
-
-/* Info Message when {{other user}} disables or doesn't support disappearing messages */
 "XXGJUSTHHANQO44" = "%@關閉了訊息銷毀功能。";
-
-/* Info Message when {{other user}} updates message expiration to {{time amount}}, see the *_TIME_AMOUNT strings for context. */
 "XXGJUSTHHANQO45" = "%@設定訊息銷毀時間為%@。";
-
-/* Label warning the user that the Tmao service may be down. */
 "XXGJUSTHHANQO46" = "Tmao 正面臨技術上的問題。我們正在盡力的盡快地恢復服務。";
-
-/* info message text in conversation view */
 "XXGJUSTHHANQO47" = "撥出電話";
-
-/* info message text in conversation view */
 "XXGJUSTHHANQO48" = "撥出電話";
-
-/* info message recorded in conversation history when local user tries and fails to call another user. */
 "XXGJUSTHHANQO49" = "未回應的撥出電話";
-
-/* A display format for oversize text messages. */
 "XXGJUSTHHANQO50" = "%@...";
-
-/* Error indicating that a PDF could not be displayed. */
 "XXGJUSTHHANQP1" = "PDF 無法顯示";
-
-/* Navbar title for for PDF view. */
 "XXGJUSTHHANQP2" = "PDF";
-
-/* Label for view-once messages that have invalid content. */
 "XXGJUSTHHANQP3" = "在處理來訊時出現錯誤";
-
-/* inbox cell and notification text for an already viewed view-once media message. */
 "XXGJUSTHHANQP4" = "一次性多媒體檔案";
-
-/* Label for outgoing view-once messages. */
 "XXGJUSTHHANQP5" = "媒體";
-
-/* inbox cell and notification text for a view-once photo. */
 "XXGJUSTHHANQP6" = "一次性照片";
-
-/* inbox cell and notification text for a view-once video. */
 "XXGJUSTHHANQP7" = "一次性影片";
-
-/* Label for view-once messages indicating that user can tap to view the message's contents. */
 "XXGJUSTHHANQP8" = "查看照片";
-
-/* Label for view-once messages indicating that user can tap to view the message's contents. */
 "XXGJUSTHHANQP9" = "觀賞影片";
-
-/* Label for view-once messages indicating that the local user has viewed the message's contents. */
 "XXGJUSTHHANQP10" = "已查看";
-
-/* A format for a label showing an example phone number. Embeds {{the example phone number}}. */
 "XXGJUSTHHANQP11" = "範例：%@";
-
-/* Format for phone number label with an index. Embeds {{Phone number label (e.g. 'home')}} and {{index, e.g. 2}}. */
 "XXGJUSTHHANQP12" = "%@ %@";
-
-/* Label for 'Home' phone numbers. */
 "XXGJUSTHHANQP13" = "住家";
-
-/* Label for 'HomeFAX' phone numbers. */
 "XXGJUSTHHANQP14" = "住家傳真";
-
-/* Label for 'iPhone' phone numbers. */
 "XXGJUSTHHANQP15" = "iPhone";
-
-/* Label for 'Main' phone numbers. */
 "XXGJUSTHHANQP16" = "主要";
-
-/* Label for 'Mobile' phone numbers. */
 "XXGJUSTHHANQP17" = "行動電話";
-
-/* Label for 'Other' phone numbers. */
 "XXGJUSTHHANQP18" = "其他";
-
-/* Label for 'Other FAX' phone numbers. */
 "XXGJUSTHHANQP19" = "其他傳真";
-
-/* Label for 'Pager' phone numbers. */
 "XXGJUSTHHANQP20" = "傳呼器";
-
-/* Label used when we don't what kind of phone number it is (e.g. mobile/work/home). */
 "XXGJUSTHHANQP21" = "未知";
-
-/* Label for 'Work' phone numbers. */
 "XXGJUSTHHANQP22" = "工作";
-
-/* Label for 'Work FAX' phone numbers. */
 "XXGJUSTHHANQP23" = "工作傳真";
-
-/* alert title, generic error preventing user from capturing a photo */
 "XXGJUSTHHANQP24" = "無法擷取圖片。";
-
-/* alert title */
 "XXGJUSTHHANQP25" = "無法擷取圖片。";
-
-/* alert title */
 "XXGJUSTHHANQP26" = "無法設定相機。";
-
-/* label for system photo collections which have no name. */
 "XXGJUSTHHANQP27" = "未命名的相簿";
-
-/* Label indicating the user must use at least 6 characters */
 "XXGJUSTHHANQP28" = "PIN 碼必須至少要6位字母數字";
-
-/* Title of the 'pin creation' recreation view. */
 "XXGJUSTHHANQP29" = "變更你的 PIN 碼";
-
-/* The explanation of confirmation in the 'pin creation' view. */
 "XXGJUSTHHANQP30" = "確認你的新 PIN 碼。";
-
-/* Button asking if the user would like to create an alphanumeric PIN */
 "XXGJUSTHHANQP31" = "建立字母數字PIN碼";
-
-/* Button asking if the user would like to create an numeric PIN */
 "XXGJUSTHHANQP32" = "建立數字 PIN 碼";
-
-/* Error body indicating that the attempt to create a PIN failed. */
 "XXGJUSTHHANQP33" = "你的 PIN 碼尚未被儲存。稍後，我們會提示你建立PIN碼。";
-
-/* Error title indicating that the attempt to create a PIN failed. */
 "XXGJUSTHHANQP34" = "PIN碼建立失敗";
-
-/* The explanation in the 'pin creation' view. */
 "XXGJUSTHHANQP35" = "PIN碼可為您的帳戶增加安全性，並且無法恢復。 您需要輸入PIN碼才能再次向Tmao註冊.";
-
-/* Label indicating that the attempted PIN does not match the first PIN */
 "XXGJUSTHHANQP36" = "PIN 碼不符，請再試一次。";
-
-/* Label indicating the user must use at least 6 digits */
 "XXGJUSTHHANQP37" = "PIN碼至少要6位字母數字";
-
-/* Label indication the user must confirm their PIN. */
 "XXGJUSTHHANQP38" = "重新輸入 PIN 碼";
-
-/* Indicates the work we are doing while creating the user's pin */
 "XXGJUSTHHANQP39" = "建立PIN碼中...";
-
-/* The re-creation explanation in the 'pin creation' view. */
 "XXGJUSTHHANQP40" = "你可以選擇一個新的PIN碼，因為此裝置已被註冊。 如果你忘記了PIN碼，則可能需要等待7天才能再次註冊。";
-
-/* Title of the 'pin creation' recreation view. */
 "XXGJUSTHHANQP41" = "建立一個新 PIN 碼";
-
-/* Title of the 'pin creation' view. */
 "XXGJUSTHHANQP42" = "建立你的 PIN 碼";
-
-/* Label indicating that the attempted PIN is too short */
 "XXGJUSTHHANQP43" = "PIN碼必須要至少6位字母數字。";
-
-/* The explanation for the 'pin reminder' dialog. */
 "XXGJUSTHHANQP44" = "要幫助你記住你的 PIN碼，我們將定期要求你輸入 PIN 碼。我們只會偶爾詢問你。";
-
-/* Text asking if the user forgot their pin for the 'pin reminder' dialog. */
 "XXGJUSTHHANQP45" = "忘記你的 PIN 碼？";
-
-/* Action text for PIN reminder megaphone */
 "XXGJUSTHHANQP46" = "Verify PIN";
-
-/* Body for PIN reminder megaphone */
 "XXGJUSTHHANQP47" = "We’ll occasionally ask you to verify your PIN so that you remember it.";
-
-/* Toast indicating that we'll ask you for your PIN again in 3 days. */
 "XXGJUSTHHANQP48" = "We’ll remind you again in a few days.";
-
-/* Title for PIN reminder megaphone */
 "XXGJUSTHHANQP49" = "Verify your Tmao PIN";
-
-/* Toast indicating that we'll ask you for your PIN again tomorrow. */
 "XXGJUSTHHANQP50" = "We’ll remind you again tomorrow.";
-
-/* Toast indicating that we'll ask you for your PIN again in 2 weeks. */
 "XXGJUSTHHANQP51" = "We’ll remind you again in a couple weeks.";
-
-/* Toast indicating that we'll ask you for your PIN again in a week. */
 "XXGJUSTHHANQP52" = "We’ll remind you again in a week.";
-
-/* Label indicating that the attempted PIN does not match the user's PIN */
 "XXGJUSTHHANQP53" = "無效的 PIN 碼，請再嘗試一次。";
-
-/* The title for the 'pin reminder' dialog. */
 "XXGJUSTHHANQP54" = "輸入你的 Tmao PIN 碼";
-
-/* Label indicating that the attempted PIN is too short */
 "XXGJUSTHHANQP55" = "PIN碼必須要至少6位字母數字。";
-
-/* Action text for PIN megaphone when user already has a PIN */
 "XXGJUSTHHANQP56" = "升級PIN碼";
-
-/* Body for PIN megaphone when user already has a PIN */
 "XXGJUSTHHANQP57" = "你的註冊鎖現在稱為PIN碼。 更新需要幾秒鐘。";
-
-/* Toast indication that the user will be reminded later to update their PIN. Embeds {{time until mandatory}} */
 "XXGJUSTHHANQP58" = "我們稍後會提醒您。 在%ld天內，更新PIN碼將為強制性。";
-
-/* Title for PIN megaphone when user already has a PIN */
 "XXGJUSTHHANQP59" = "介紹 PIN 碼";
-
-/* Action text for PIN megaphone when user doesn't have a PIN */
 "XXGJUSTHHANQP60" = "建立PIN碼";
-
-/* Body for PIN megaphone when user doesn't have a PIN */
 "XXGJUSTHHANQP61" = "PIN碼為你的Tmao帳號增加了另一層安全保護。";
-
-/* Toast indication that the user will be reminded later to setup their PIN. Embeds {{time until mandatory}} */
 "XXGJUSTHHANQP62" = "我們稍後會提醒你。 在%ld 天內，創建PIN碼將成為強制性。";
-
-/* Title for PIN megaphone when user doesn't have a PIN */
 "XXGJUSTHHANQP63" = "建立一個PIN碼";
-
-/* Toast indicating that a PIN has been created. */
 "XXGJUSTHHANQP64" = "PIN created. You can change it in settings.";
-
-/* Accessibility label for button to start media playback */
 "XXGJUSTHHANQP65" = "播放媒體";
-
-/* Label indicating that the user is not verified. Embeds {{the user's name or phone number}}. */
 "XXGJUSTHHANQP66" = "你尚未將%@標記為已驗證。";
-
-/* Badge indicating that the user is verified. */
 "XXGJUSTHHANQP67" = "已驗證";
-
-/* Label indicating that the user is verified. Embeds {{the user's name or phone number}}. */
 "XXGJUSTHHANQP68" = "%@已驗證。";
-
-/* Label for a link to more information about safety numbers and verification. */
 "XXGJUSTHHANQP69" = "了解更多";
-
-/* Button that shows the 'scan with camera' view. */
 "XXGJUSTHHANQP70" = "點擊以掃描";
-
-/* Button that lets user mark another user's identity as unverified. */
 "XXGJUSTHHANQP71" = "清除驗證訊息";
-
-/* Alert body when verifying with {{contact name}} */
 "XXGJUSTHHANQP72" = "看起來與%@安全碼不匹配。你確定驗證的是正確的聯絡人？";
-
-/* Alert body */
 "XXGJUSTHHANQP73" = "剪貼簿中的號碼看起來不是此對話的正確安全碼。";
-
-/* Alert body for user error */
 "XXGJUSTHHANQP74" = "Tmao 無法在剪貼簿中找到任何安全碼。你確定複製對了嗎？";
-
-/* Alert body when verifying with {{contact name}} */
 "XXGJUSTHHANQP75" = "每一對 Tmao 使用者共享一個獨特的安全碼。再次檢查%@顯示的是\"你的\"安全碼。";
-
-/* alert body */
 "XXGJUSTHHANQP76" = "你使用的 Tmao 版本太舊。你必須更新後再驗證。";
-
-/* alert body */
 "XXGJUSTHHANQP77" = "你朋友使用的Tmao版本太舊，必須升級後才能驗證。";
-
-/* alert body */
 "XXGJUSTHHANQP78" = "你所掃描的碼似乎不是安全碼。請確認雙方都使用最新的版本。";
-
-/* Paragraph(s) shown alongside the safety number when verifying privacy with {{contact name}} */
 "XXGJUSTHHANQP79" = "如須確認你和 %@點對點加密的安全性，請在雙方裝置上比較上述數字。\n\n或者可以透過掃描雙方的QR code進行驗證。";
-
-/* Navbar title */
 "XXGJUSTHHANQP80" = "驗證安全碼";
-
-/* Button that lets user mark another user's identity as verified. */
 "XXGJUSTHHANQP81" = "標記為已驗證";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQP82" = "繼續";
-
-/* Action text for profile name reminder megaphone */
 "XXGJUSTHHANQP83" = "開始吧";
-
-/* Body for profile name reminder megaphone when user already has a profile name */
 "XXGJUSTHHANQP84" = "你的個人資料現在可以包含可選的姓氏。";
-
-/* Title for profile name reminder megaphone when user already has a profile name */
 "XXGJUSTHHANQP85" = "確認你的個人資料名稱";
-
-/* Body for profile name reminder megaphone when user doesn't have a profile name */
 "XXGJUSTHHANQP86" = "當你開始新的對話或分享時，將顯示此內容。";
-
-/* Title for profile name reminder megaphone when user doesn't have a profile name */
 "XXGJUSTHHANQP87" = "新增一個個人資料名稱";
-
-/* Toast indicating that a PIN has been created. */
 "XXGJUSTHHANQP88" = "你的個人資料名稱已被儲存。";
-
-/* Action Sheet title prompting the user for a profile avatar */
 "XXGJUSTHHANQP89" = "設定頭像";
-
-/* Label for action that clear's the user's profile avatar */
 "XXGJUSTHHANQP90" = "清除頭像";
-
-/* A string indicating that the user can create a username on the profile view. */
 "XXGJUSTHHANQP91" = "新創使用者名稱";
-
-/* Error message shown when user tries to update profile with a family name that is too long. */
 "XXGJUSTHHANQP92" = "你的姓太長了。";
-
-/* Error message shown when user tries to update profile without a given name */
 "XXGJUSTHHANQP93" = "你必須輸入名字。";
-
-/* Error message shown when user tries to update profile with a given name that is too long. */
 "XXGJUSTHHANQP94" = "你的名字太長了。";
-
-/* Default text for the family name field of the profile view. */
 "XXGJUSTHHANQP95" = "(選擇性)";
-
-/* Label for the family name field of the profile view. */
 "XXGJUSTHHANQP96" = "姓";
-
-/* Default text for the given name field of the profile view. */
 "XXGJUSTHHANQP97" = "(必須的)";
-
-/* Label for the given name field of the profile view. */
 "XXGJUSTHHANQP98" = "名字";
-
-/* Error shown when the user tries to update their profile when the app is not connected to the internet. */
 "XXGJUSTHHANQP99" = "當連接到網際網路，你的個人資料可以上傳。";
-
-/* Description of the user profile. */
 "XXGJUSTHHANQP100" = "你的個人資訊在以下情況可被看見，當開啟新對話時，以及你分享給其他使用者和群組時。";
-
-/* Link to more information about the user profile. */
 "XXGJUSTHHANQP101" = "點擊這裡獲得更多資訊。";
-
-/* Title for the profile view. */
 "XXGJUSTHHANQP103" = "個人資訊";
-
-/* Label for the username field of the profile view. */
 "XXGJUSTHHANQP104" = "使用者名稱";
-
-/* Notification action button title */
 "XXGJUSTHHANQP105" = "標記為已讀";
-
-/* Notification action button title */
 "XXGJUSTHHANQP106" = "回覆";
-
-/* Title of alert shown when push tokens sync job succeeds. */
 "XXGJUSTHHANQP107" = "成功重新註冊了推播通知。";
-
-/* Used in table section header and alert view title contexts */
 "XXGJUSTHHANQP108" = "推播通知";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQQ1" = "？";
-
-/* Indicates the author of a quoted message. Embeds {{the author's name or phone number}}. */
 "XXGJUSTHHANQQ2" = "回覆給 1%@";
-
-/* message header label when someone else is quoting you */
 "XXGJUSTHHANQQ3" = "回覆給你";
-
-/* message header label when quoting yourself */
 "XXGJUSTHHANQQ4" = "回覆給你自己";
-
-/* Footer label that appears below quoted messages when the quoted content was not derived locally. When the local user doesn't have a copy of the message being quoted, e.g. if it had since been deleted, we instead show the content specified by the sender. */
 "XXGJUSTHHANQQ5" = "找不到原始訊息。";
-
-/* Toast alert text shown when tapping on a quoted message which we cannot scroll to because the local copy of the message was since deleted. */
 "XXGJUSTHHANQQ6" = "原始訊息已不存在。";
-
-/* Toast alert text shown when tapping on a quoted message which we cannot scroll to because the local copy of the message didn't exist when the quote was received. */
 "XXGJUSTHHANQQ7" = "找不到原始訊息。";
-
-
-/* Indicates this message is a quoted reply to animated GIF file. */
 "XXGJUSTHHANQQ9F" = "GIF";
-
-/* Indicates this message is a quoted reply to an image file. */
 "XXGJUSTHHANQQ10" = "影像";
-
-/* Indicates this message is a quoted reply to a video file. */
 "XXGJUSTHHANQQ11" = "影片";
-
-/* The header used to indicate All reactions to a given message. Embeds {{number of reactions}} */
 "XXGJUSTHHANQR1" = "所有。%@";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR2" = "到%@檢視你的訊息";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR3" = "到%@檢視你的相簿";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR4" = "到%@檢視你的語音";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR5" = "到%@檢視你的聯絡人分享";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR6" = "到%@檢視你的個人資訊";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR7" = "到%@檢視你的GIF";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR8" = "到%@檢視你的照片";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR9" = "到%@檢視你的貼圖";
-
-/* notification body. Embeds {{reaction emoji}} and {{body text}} */
 "XXGJUSTHHANQR10" = "%@對檢視:\"%@\"";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR11" = "到%@檢視你的影片";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR12" = "到%@檢視你的一次性多媒體檔案";
-
-/* notification body. Embeds {{reaction emoji}} */
 "XXGJUSTHHANQR13" = "到%@檢視你的語音訊息";
-
-/* Body for the megaphone introducing reactions */
 "XXGJUSTHHANQR14" = "點擊並按住在任何訊息上以快速地回覆你的感受。";
-
-/* Title for the megaphone introducing reactions */
 "XXGJUSTHHANQR15" = "介紹\"回應\"";
-
-/* Label for 'I forgot my PIN' link in the 2FA registration view. */
 "XXGJUSTHHANQR16" = "我忘了 PIN 碼。";
-
-/* Alert message explaining what happens if you forget your 'two-factor auth pin'. */
 "XXGJUSTHHANQR17" = "為了你的隱私和安全，無法回復你的 PIN 碼。 如果你忘記了自己的 PIN 碼，可以在閒置7天後重新透過簡訊重新認證。 在這種情況下，你的帳戶將被刪除並刪除所有內容。";
-
-/* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "XXGJUSTHHANQR18" = "忘記你的 PIN 碼？";
-
-/* Alert message explaining what happens if you get your pin wrong and have multiple attempts remaining 'two-factor auth pin'. */
 "XXGJUSTHHANQR19" = "你剩下 %lu 嘗試次數。 如果你的嘗試次數用完，你的帳戶將被鎖定。 閒置7天後，你可以在沒有PIN的情況下重新註冊。 你的帳戶將被刪除，所有內容也都將被刪除。";
-
-/* Alert message explaining what happens if you get your pin wrong and have one attempt remaining 'two-factor auth pin'. */
 "XXGJUSTHHANQR20" = "你剩下1次嘗試。 如果你的嘗試次數用完，你的帳戶將被鎖定。 閒置7天後，你可以在沒有PIN的情況下重新註冊。 你的帳戶將被刪除，所有內容也都將被刪除。";
-
-/* Alert title explaining what happens if you forget your 'two-factor auth pin'. */
 "XXGJUSTHHANQR21" = "錯誤的 PIN 碼";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQR22" = "歡迎!";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQR23" = "再試一次";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQR24" = "你嘗試過於頻繁，請等一分鐘後再試。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQR25" = "你嘗試了太多次，請稍後再試一次。";
-
-/* Title of alert shown when push tokens sync job fails. */
 "XXGJUSTHHANQR26" = "重新註冊推播通知失敗。";
-
-/* Label for the country code field */
 "XXGJUSTHHANQR27" = "國碼";
-
-/* Placeholder text for the phone number textfield */
 "XXGJUSTHHANQR28" = "輸入號碼";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQR29" = "註冊錯誤";
-
-/* alert body during registration */
 "XXGJUSTHHANQR30" = "我們無法啟用你的帳號直到驗證我們寄送給你的驗證碼。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQR31" = "不支援這個電話號碼的格式，請聯繫支援部門。";
-
-/* Label for the phone number textfield */
 "XXGJUSTHHANQR32" = "電話號碼";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQR33" = "你必須先註冊才能傳送訊息。";
-
-/* Alert view title */
 "XXGJUSTHHANQR34" = "驗證失敗";
-
-/* Error message indicating that registration failed due to a missing or incorrect verification code. */
 "XXGJUSTHHANQR35" = "你提供的數字與我們發給你的並不相符。要再檢查一下嗎？";
-
-/* Error message indicating that registration failed due to a missing or incorrect 2FA PIN. */
 "XXGJUSTHHANQR36" = "不正確的註冊鎖定 PIN 碼。";
-
-/* Message of alert indicating that users needs to enter a valid phone number to register. */
 "XXGJUSTHHANQR37" = "請輸入有效的電話號碼來註冊。";
-
-/* Title of alert indicating that users needs to enter a valid phone number to register. */
 "XXGJUSTHHANQR38" = "無效的電話號碼";
-
-/* Message of alert indicating that users needs to enter a phone number to register. */
 "XXGJUSTHHANQR39" = "請輸入一個電話號碼來註冊。";
-
-/* Title of alert indicating that users needs to enter a phone number to register. */
 "XXGJUSTHHANQR40" = "電話號碼無效";
-
-/* notification action */
 "XXGJUSTHHANQR41" = "拒絕";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQR42" = "你要註冊的電話號碼已在另一個伺服器註冊，請註銷該號碼之後再試一次。";
-
-/* Body text for when user is periodically prompted to enter their registration lock PIN */
 "XXGJUSTHHANQR43" = "你的電話號碼已啟用於註冊鎖定功能。為了幫助你記得你的註冊鎖定 PIN 碼，Tmao 將定期的要求你確認這個 PIN 碼。";
-
-/* Body header for when user is periodically prompted to enter their registration lock PIN */
 "XXGJUSTHHANQR44" = "提醒：";
-
-/* Alert message explaining what happens if you forget your 'two-factor auth pin' */
 "XXGJUSTHHANQR45" = "註冊鎖定協助護你的電話號碼，免於未經授權註冊的企圖。此功能可以隨時在 Tmao 的隱私權設定內關閉。";
-
-/* Navbar title for when user is periodically prompted to enter their registration lock PIN */
 "XXGJUSTHHANQR46" = "輸入你的註冊鎖定 PIN 碼";
-
-/* Alert body after wrong guess for 'two-factor auth pin' reminder activity */
 "XXGJUSTHHANQR47" = "你可以在隱私權設定中設定新的 PIN 碼。";
-
-/* Alert title after wrong guess for 'two-factor auth pin' reminder activity */
 "XXGJUSTHHANQR48" = "這不是正確的 PIN 碼。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQR49" = "重新註冊推播通知";
-
-/* button title to confirm adding a recipient to a group when their safety number has recently changed */
 "XXGJUSTHHANQS1" = "依然加入群組";
-
-/* alert button text to confirm placing an outgoing call after the recipients Safety Number has changed. */
 "XXGJUSTHHANQS2" = "依然撥出";
-
-/* button title to confirm sending to a recipient whose safety number recently changed */
 "XXGJUSTHHANQS3" = "依然寄送";
-
-/* Snippet to share {{safety number}} with a friend. sent e.g. via SMS */
 "XXGJUSTHHANQS4" = "我們 Tmao 的安全碼。\n%@";
-
-/* Action sheet heading */
 "XXGJUSTHHANQS5" = "你與%@間的安全碼已經改變。你可以要求驗證。";
-
-/* label presented once scanning (camera) view is visible. */
 "XXGJUSTHHANQS6" = "掃描聯絡人裝置上的 QR code。";
-
-/* Title for the 'scan QR code' view. */
 "XXGJUSTHHANQS7" = "掃描 QR code";
-
-/* Indicates a delay of zero seconds, and that 'screen lock activity' will timeout immediately. */
 "XXGJUSTHHANQS7" = "即刻";
-
-/* Indicates that an unknown error occurred while using Touch ID/Face ID/Phone Passcode. */
 "XXGJUSTHHANQS8" = "身分驗證無法被連結。";
-
-/* Indicates that Touch ID/Face ID/Phone Passcode authentication failed. */
 "XXGJUSTHHANQS9" = "身分認證失敗。";
-
-/* Indicates that Touch ID/Face ID/Phone Passcode is 'locked out' on this device due to authentication failures. */
 "XXGJUSTHHANQS10" = "認證嘗試失敗太多次。請稍後再試。";
-
-/* Indicates that Touch ID/Face ID/Phone Passcode are not available on this device. */
 "XXGJUSTHHANQS11" = "你必須在 iOS 設定中啟動密碼功能以使用螢幕鎖定。";
-
-/* Indicates that Touch ID/Face ID/Phone Passcode is not configured on this device. */
 "XXGJUSTHHANQS12" = "你必須在 iOS 設定中啟動密碼功能以使用螢幕鎖定。";
-
-/* Indicates that Touch ID/Face ID/Phone Passcode passcode is not set. */
 "XXGJUSTHHANQS13" = "你必須在 iOS 設定中啟動密碼功能以使用螢幕鎖定。";
-
-/* Description of how and why Tmao iOS uses Touch ID/Face ID/Phone Passcode to unlock 'screen lock'. */
 "XXGJUSTHHANQS14" = "認證以開啟 Tmao。";
-
-/* Title for alert indicating that screen lock could not be unlocked. */
 "XXGJUSTHHANQS15" = "身份認證失敗";
-
-/* Label for button on lock screen that lets users unlock Tmao. */
 "XXGJUSTHHANQS16" = "解鎖 Tmao";
-
-/* Placeholder text indicating the user can search for contacts by name, username, or phone number. */
 "XXGJUSTHHANQS17" = "姓名、使用者名稱與電話號碼";
-
-/* Placeholder text indicating the user can search for contacts by name or phone number. */
 "XXGJUSTHHANQS18" = "依名字或號碼來搜尋";
 "XXGJUSTHHANQS181" = "依國家名或國家編碼來搜尋";
-
-/* section header for search results that match a contact who doesn't have an existing conversation */
 "XXGJUSTHHANQS19" = "其他聯絡人";
-
-/* section header for search results that match existing conversations (either group or contact conversations) */
 "XXGJUSTHHANQS20" = "對話";
-
-/* alert title */
 "XXGJUSTHHANQS21" = "無法取得連結碼";
-
-/* alert message for outdated linking device */
 "XXGJUSTHHANQS22" = "你的其他裝置執行的是舊版Tmao，該版本不支援掃描iPad QR CODE。 請安裝最新版本的 Tmao，然後重試。你的其他裝置執行的是舊版 Tmao，該版本不支援掃描iPad QR code。 請安裝最新的Tmao版本，然後重試。";
-
-/* alert title for outdated linking device */
 "XXGJUSTHHANQS23" = "升級掃描裝置";
-
-/* alert title */
 "XXGJUSTHHANQS24" = "無法連結你的裝置";
-
-/* header text when this device is being added as a secondary */
 "XXGJUSTHHANQS25" = "選擇此裝置的名稱";
-
-/* label text */
 "XXGJUSTHHANQS26" = "你將在\"已連結的裝置\"中看到此名稱";
-
-/* text field placeholder */
 "XXGJUSTHHANQS27" = "選擇一個名稱";
-
-/* body text while displaying a QR code which, when scanned, will link this device. */
 "XXGJUSTHHANQS28" = "完成連結";
-
-/* header text before the user can link this device */
 "XXGJUSTHHANQS29" = "在手機上啟動Tmao，以將此 iPad 連結到你的帳戶";
-
-/* Link explaining what to do when trying to link a device before having a primary device. */
 "XXGJUSTHHANQS30" = "我手機上沒有 Tmao ...";
-
-/* alert body */
 "XXGJUSTHHANQS31" = "前往手機上的 App Store，安裝Tmao，完成註冊過程，然後可以將 iPad 連結到同一帳戶。";
-
-/* alert title */
 "XXGJUSTHHANQS32" = "在你的手機上安裝 Tmao";
-
-/* body text while displaying a QR code which, when scanned, will link this device. */
 "XXGJUSTHHANQS33" = "點擊你的個人資料圖片以在手機上開起 Tmao 設定。 然後在“已連結的裝置”和“連結新的裝置”以使用你的手機掃描此代碼：";
-
-/* Link text for page with troubleshooting info shown on the QR scanning screen */
 "XXGJUSTHHANQS34" = "在這裡取得有關將 iPad連結的協助";
-
-/* header text while displaying a QR code which, when scanned, will link this device. */
 "XXGJUSTHHANQS35" = "用你的手機掃描 QR Code";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS36" = "安全會話已重設";
-
-/* Table section header for conversations you haven't recently used. */
 "XXGJUSTHHANQS37" = "其他聯絡人";
-
-/* Table section header for recently active conversations */
 "XXGJUSTHHANQS38" = "最近的對話";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS39" = "再次傳送";
-
-/* Label for the button to send a message */
 "XXGJUSTHHANQS40" = "傳送";
-
-/* notification body */
 "XXGJUSTHHANQS41" = "你的訊息傳送失敗。";
-
-/* Alert body after invite failed */
 "XXGJUSTHHANQS42" = "邀請寄出失敗，稍後再試一次。";
-
-/* Alert body after invite succeeded */
 "XXGJUSTHHANQS43" = "你已邀請你的朋友來使用 Tmao！";
-
-/* alert action, confirming the user wants to exit the media flow and abandon any photos they've taken */
 "XXGJUSTHHANQS44" = "放棄媒體檔案。";
-
-/* alert action when the user decides not to cancel the media flow after all. */
 "XXGJUSTHHANQS45" = "回到照相機功能";
-
-/* alert action when the user decides not to cancel the media flow after all. */
 "XXGJUSTHHANQS46" = "回到我的相簿";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS47" = "透過未加密的簡訊邀請朋友？";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS48" = "你是否希望邀請以下號碼加入Tmao：";
-
-/* Navbar title */
 "XXGJUSTHHANQS49" = "關於我們";
-
-/* Label for the  'manual censorship circumvention' switch. */
 "XXGJUSTHHANQS50" = "審查規避";
-
-/* Label for the 'manual censorship circumvention' country. Embeds {{the manual censorship circumvention country}}. */
 "XXGJUSTHHANQS51" = "位置：%@";
-
-/* Table footer for the 'censorship circumvention' section when censorship circumvention can be manually enabled. */
 "XXGJUSTHHANQS52" = "如果啟用，Tmao 將嘗試避開審查。除非Tmao於你的所在地受到審查，否則不要開啟此功能。";
-
-/* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been auto-enabled based on local phone number. */
 "XXGJUSTHHANQS53" = "已根據你的電話號碼啟動審查規避。";
-
-/* Table footer for the 'censorship circumvention' section shown when censorship circumvention has been manually disabled. */
 "XXGJUSTHHANQS54" = "你已經手動關閉規避審查。";
-
-/* Table footer for the 'censorship circumvention' section shown when the app is not connected to the internet. */
 "XXGJUSTHHANQS55" = "審查規避只能在連上網路時啟動。";
-
-/* Table footer for the 'censorship circumvention' section shown when the app is connected to the Tmao service. */
 "XXGJUSTHHANQS56" = "你已經連接上 Tmao服務，所以不需要啟動審查規避。";
-
-/* Table header for the 'censorship circumvention' section. */
 "XXGJUSTHHANQS57" = "審查規避";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS58" = "啟用除錯日誌";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS59" = "提交除錯日誌";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS60" = "進階設置";
-
-/* table cell label */
 "XXGJUSTHHANQS61" = "錯誤日誌";
-
-/* The title for the theme section in the appearance settings. */
 "XXGJUSTHHANQS62" = "主題";
-
-/* The title for the appearance settings. */
 "XXGJUSTHHANQS63" = "介面設定";
-
-/* Format string for the default 'Note' sound. Embeds the system {{sound name}}. */
 "XXGJUSTHHANQS64" = "1%@ (預設)";
-
-/* Label for the backup view in app settings. */
 "XXGJUSTHHANQS65" = "備份";
-
-/* Label for 'backup now' button in the backup settings view. */
 "XXGJUSTHHANQS66" = "馬上備份";
-
-/* Label for 'cancel backup' button in the backup settings view. */
 "XXGJUSTHHANQS67" = "取消備份";
-
-/* Label for switch in settings that controls whether or not backup is enabled. */
 "XXGJUSTHHANQS68" = "備份功能啟動";
-
-/* Label for iCloud status row in the in the backup settings view. */
 "XXGJUSTHHANQS69" = "iCloud 狀態。";
-
-/* Indicates that the last backup restore failed. */
 "XXGJUSTHHANQS70" = "復原備份失敗";
-
-/* Indicates that app is not restoring up. */
 "XXGJUSTHHANQS71" = "備份復原閒置中";
-
-/* Indicates that app is restoring up. */
 "XXGJUSTHHANQS72" = "正在進行復原備份";
-
-/* Indicates that the last backup restore succeeded. */
 "XXGJUSTHHANQS73" = "復原備份成功";
-
-/* Label for phase row in the in the backup settings view. */
 "XXGJUSTHHANQS74" = "階段";
-
-/* Indicates that the last backup failed. */
 "XXGJUSTHHANQS75" = "備份失敗";
-
-/* Indicates that app is not backing up. */
 "XXGJUSTHHANQS76" = "等待中";
-
-/* Indicates that app is backing up. */
 "XXGJUSTHHANQS77" = "備份中";
-
-/* Indicates that the last backup succeeded. */
 "XXGJUSTHHANQS78" = "備份成功";
-
-/* A label for the 'add phone number' button in the block list table. */
 "XXGJUSTHHANQS79" = "新增封鎖的聯絡人";
-
-/* A label that indicates the user has no Tmao contacts. */
 "XXGJUSTHHANQS80" = "你沒有使用Tmao的連絡人。";
-
-/* A label that indicates the user's search has no matching results. */
 "XXGJUSTHHANQS81" = "無搜尋結果";
-
-/* Table cell label */
 "XXGJUSTHHANQS82" = "永遠轉發通話";
-
-/* User settings section footer, a detailed explanation */
 "XXGJUSTHHANQS83" = "透過 Tmao 伺服器轉發通話，來避免透露你的 IP 位址給你的聯絡人。啟用時，會降低通話品質。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS84" = "清除對話紀錄";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS85" = "刪除帳戶";
-
-/* Label for 'delete data' button. */
 "XXGJUSTHHANQS86" = "刪除所有資料";
-
-/* Alert message before user confirms clearing history */
 "XXGJUSTHHANQS87" = "你確定要刪除所有的歷史紀錄(包括訊息、附檔、電話等等？)此操作將無法被還原。";
-
-/* Confirmation text for button which deletes all message, calling, attachments, etc. */
 "XXGJUSTHHANQS88" = "刪除所有內容記錄";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS89" = "幫助";
-
-/* Section header */
 "XXGJUSTHHANQS90" = "清除對話紀錄";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS91" = "資訊";
-
-/* Settings table view cell label */
 "XXGJUSTHHANQS92" = "邀請朋友";
-
-/* content of tweet when inviting via twitter - please do not translate URL */
 "XXGJUSTHHANQS93" = "你可以使用 @Tmao 來與我聯繫。從這裡下載：https://signal.org/download/";
-
-/* Label for settings view that allows user to change the notification sound. */
 "XXGJUSTHHANQS94" = "訊息音效";
-
-/* table cell label */
 "XXGJUSTHHANQS95" = "條款和隱私政策";
-
-/* Setting for enabling & disabling link previews. */
 "XXGJUSTHHANQS96" = "傳送連結預覽";
-
-/* Footer for setting for enabling & disabling link previews. */
 "XXGJUSTHHANQS97" = "預覽功能支援 Imgur、 Instagram、 Pinterest、 Reddit 及 YouTube的連結。";
-
-/* Header for setting for enabling & disabling link previews. */
 "XXGJUSTHHANQS98" = "連結預覽";
-
-/* table section footer */
 "XXGJUSTHHANQS99" = "電話與訊息通知可以在你的手機鎖定時顯示。你可以限制那些內容可以顯示在通知欄。";
-
-/* table section header */
 "XXGJUSTHHANQS100" = "通知欄內容";
-
-/* When the local device discovers a contact has recently installed signal, the app can generates a message encouraging the local user to say hello. Turning this switch off disables that feature. */
 "XXGJUSTHHANQS101" = "聯絡人已加入 Tmao 通知";
-
-/* table section header */
 "XXGJUSTHHANQS102" = "事件";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS103" = "通知管理";
-
-/* Footer for the 'PINs' section of the privacy settings. */
 "XXGJUSTHHANQS104" = "你的PIN碼為你的帳號新增了一層額外的安全保護。 在Tmao上註冊電話號碼時，系統會要求你輸入。 如果你忘記了PIN碼，則將被鎖定7天。";
-
-/* Label for the 'pins' item of the privacy settings when the user does have a pin. */
 "XXGJUSTHHANQS105" = "變更你的 PIN 碼";
-
-/* Label for the 'pins' item of the privacy settings when the user doesn't have a pin. */
 "XXGJUSTHHANQS106" = "建立一個PIN碼";
-
-/* Title for the 'PINs' section of the privacy settings. */
 "XXGJUSTHHANQS107" = "PIN 碼";
-
-/* Label for 'CallKit privacy' preference */
 "XXGJUSTHHANQS108" = "顯示來電者的名字與號碼";
-
-/* Settings table section footer. */
 "XXGJUSTHHANQS109" = "顯示來電於 iOS 電話中的通話紀錄。";
-
-/* Short table cell label */
 "XXGJUSTHHANQS110" = "顯示來電於通話紀錄";
-
-/* Short table cell label */
 "XXGJUSTHHANQS111" = "iOS 電話整合";
-
-/* Settings table view cell label */
 "XXGJUSTHHANQS112" = "隱私服務";
-
-/* Label for the 'read receipts' setting. */
 "XXGJUSTHHANQS113" = "已讀回執";
-
-/* An explanation of the 'read receipts' setting. */
 "XXGJUSTHHANQS114" = "訊息可以在被讀取後查看與分享。這個設定是可選設定，且對所有對話有效。";
-
-/* Label for re-link button. */
 "XXGJUSTHHANQS115" = "重新連結";
-
-/* Label for re-registration button. */
 "XXGJUSTHHANQS116" = "重新註冊";
-
-/* Label for the 'screen lock activity timeout' setting of the privacy settings. */
 "XXGJUSTHHANQS117" = "螢幕鎖定逾時";
-
-/* Footer for the 'screen lock' section of the privacy settings. */
 "XXGJUSTHHANQS118" = "使用Touch ID，Face ID或你的 iOS 裝置密碼解鎖 Tmao的螢幕。 啟用螢幕鎖定後，你仍然可以接聽來電並接收電話和訊息通知。 Tmao的通知設定讓你可以自定顯示的資訊。        ";
-
-/* Title for the 'screen lock' section of the privacy settings. */
 "XXGJUSTHHANQS119" = "螢幕鎖定";
-
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS121" = "開啟程式切換時隱藏畫面功能";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS122" = "避免Tmao預覽畫面在應用軟體切換時顯示。";
-
-/* Settings table section footer. */
 "XXGJUSTHHANQS123" = "iOS通話整合會在你的鎖定畫面和系統通話紀錄中顯示你的Tmao通話紀錄。你可以選擇顯示你的聯絡人名字和號碼。如果你已開啟iCloud，系統會與蘋果公司共享通話紀錄。";
-
-/* Label for the notifications section of conversation settings view. */
 "XXGJUSTHHANQS124" = "通知";
-
-/* Header Label for the sounds section of settings views. */
 "XXGJUSTHHANQS125" = "音效";
-
-/* settings topic header for table section */
 "XXGJUSTHHANQS126" = "撥打中";
-
-/* Section header */
 "XXGJUSTHHANQS127" = "螢幕安全";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS128" = "支援";
-
-/* Indicates that 'two factor auth' is disabled in the privacy settings. */
 "XXGJUSTHHANQS129" = "關閉";
-
-/* Indicates that 'two factor auth' is enabled in the privacy settings. */
 "XXGJUSTHHANQS130" = "啟動";
-
-/* Label for the 'two factor auth' item of the privacy settings. */
 "XXGJUSTHHANQS131" = "註冊鎖定";
-
-/* Title for the 'two factor auth' section of the privacy settings. */
 "XXGJUSTHHANQS132" = "註冊鎖定";
-
-/* Label for the 'typing indicators' setting. */
 "XXGJUSTHHANQS133" = "打字狀態";
-
-/* An explanation of the 'typing indicators' setting. */
 "XXGJUSTHHANQS134" = "查看並分享正在輸入的訊息。這個設定是選擇性及適用於所有對話。";
-
-/* Label for a link to more info about unidentified delivery. */
 "XXGJUSTHHANQS135" = "了解更多";
-
-/* table section label */
 "XXGJUSTHHANQS136" = "密封發件人";
-
-/* switch label */
 "XXGJUSTHHANQS137" = "顯示指標";
-
-/* table section footer */
 "XXGJUSTHHANQS138" = "在使用密封發件人傳遞的訊息上選擇“更多訊息”時顯示狀態圖示。";
-
-/* switch label */
 "XXGJUSTHHANQS139" = "允許任何人";
-
-/* table section footer */
 "XXGJUSTHHANQS140" = "啟用密封發件人對來自非聯絡人及其他人傳來的訊息，將不會對其分享你的個人資訊。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS141" = "版本";
-
-/* action sheet item to open native mail app */
 "XXGJUSTHHANQS142" = "電子郵件";
-
-/* action sheet item to open native messages app */
 "XXGJUSTHHANQS143" = "簡訊";
-
-/* action sheet item */
 "XXGJUSTHHANQS144" = "推特";
-
-/* alert body when sharing file failed because of untrusted/changed identity keys */
 "XXGJUSTHHANQS145" = "您與 %@的安全碼已改變。建議您重新寄送前，在主程式中驗證新的安全碼。";
-
-/* Indicates that the share extension is still loading. */
 "XXGJUSTHHANQS146" = "讀取中...";
-
-/* Message indicating that the share extension cannot be used until the user has registered in the main app. */
 "XXGJUSTHHANQS147" = "啟動 Tmao 應用程式來註冊。";
-
-/* Title indicating that the share extension cannot be used until the user has registered in the main app. */
 "XXGJUSTHHANQS148" = "尚未註冊";
-
-/* Message indicating that the share extension cannot be used until the main app has been launched at least once. */
 "XXGJUSTHHANQS149" = "啟動 Tmao 來更新或註冊。";
-
-/* Title indicating that the share extension cannot be used until the main app has been launched at least once. */
 "XXGJUSTHHANQS150" = "還沒準備好";
-
-/* Alert title */
 "XXGJUSTHHANQS151" = "無法寄出附件";
-
-/* Alert title */
 "XXGJUSTHHANQS152" = "上傳中...";
-
-/* Shown when trying to share content to a Tmao user for the share extension. Followed by failure details. */
 "XXGJUSTHHANQS153" = "無法準備附件";
-
-/* Title for the 'share extension' view. */
 "XXGJUSTHHANQS154" = "分享至 Tmao";
-
-/* Action sheet item */
 "XXGJUSTHHANQS155" = "顯示安全碼";
-
-/* notification action */
 "XXGJUSTHHANQS156" = "顯示對話";
-
-/* body sent to contacts when inviting to Install Tmao */
 "XXGJUSTHHANQS157" = "邀請您安裝 Tmao！這裡是連結：";
-
-/* Label for the 'no sound' option that allows users to disable sounds for notifications, etc. */
 "XXGJUSTHHANQS158" = "靜音";
-
-/* Preview text shown in notifications and conversation list for sticker messages. */
 "XXGJUSTHHANQS159" = "貼圖訊息";
-
-/* Tooltip indicating that a sticker pack was installed. */
 "XXGJUSTHHANQS160" = "貼圖包已安裝";
-
-/* Label for a sticker that failed to download. */
 "XXGJUSTHHANQS161" = "貼圖";
-
-/* Label for the 'install sticker pack' button. */
 "XXGJUSTHHANQS162" = "安裝";
-
-/* Title for the 'available built-in stickers' section of the 'manage stickers' view. */
 "XXGJUSTHHANQS163" = "Tmao 藝術家系列";
-
-/* Title for the 'available known stickers' section of the 'manage stickers' view. */
 "XXGJUSTHHANQS164" = "你收到的貼圖";
-
-/* Label indicating that one or more known sticker packs failed to load. */
 "XXGJUSTHHANQS165" = "有些圖示表情包無法被讀取";
-
-/* Title for the 'installed stickers' section of the 'manage stickers' view. */
 "XXGJUSTHHANQS166" = "已裝的貼圖";
-
-/* Label indicating that the user has no installed sticker packs. */
 "XXGJUSTHHANQS168" = "沒有貼圖被安裝";
-
-/* Label indicating that the user has no known sticker packs. */
 "XXGJUSTHHANQS169" = "你收到的貼圖訊息將顯示在這裡";
-
-/* Title for the 'manage stickers' view. */
 "XXGJUSTHHANQS170" = "貼圖";
-
-/* Default title for sticker packs. */
 "XXGJUSTHHANQS171" = "貼圖包";
-
-/* Title of the 'share sticker pack' view. */
 "XXGJUSTHHANQS172" = "分享貼圖包";
-
-/* The default title for the 'sticker pack' view. */
 "XXGJUSTHHANQS173" = "貼圖包";
-
-/* Label indicating that the sticker pack failed to load. */
 "XXGJUSTHHANQS174" = "貼圖包讀取失敗";
-
-/* Label for the 'uninstall sticker pack' button. */
 "XXGJUSTHHANQS175" = "移除";
-
-/* Alert body after verifying privacy with {{other user's name}} */
 "XXGJUSTHHANQS176" = "你與 %@的安全碼相符合。你可以將此聯絡人標記為已驗證。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQS177" = "安全碼符合！";
-
-/* Label for button to verify a user's safety number. */
 "XXGJUSTHHANQS178" = "驗證安全碼";
-
-/* The number of members in a group. Embeds {{member count}} */
 "XXGJUSTHHANQS179" = "%lu 組員";
-
-/* A string indicating two mutual groups the user shares with this contact and that there are more unlisted. Embeds {{mutual group name}} */
 "XXGJUSTHHANQS180" = "%@、%@的組員及 %lu 其他群組";
-
-/* Subtitle appearing at the top of the users 'note to self' conversation */
 "XXGJUSTHHANQT1" = "你可以在此對話中為自己增加筆記。 如果你的帳號有任何連結的裝置，則新的筆記將被同步。";
-
-/* A string indicating a mutual group the user shares with this contact. Embeds {{mutual group name}} */
 "XXGJUSTHHANQT2" = "%@的組員";
-
-/* A string indicating three mutual groups the user shares with this contact. Embeds {{mutual group name}} */
 "XXGJUSTHHANQT3" = "%@、%@及%@的組員";
-
-/* A string indicating two mutual groups the user shares with this contact. Embeds {{mutual group name}} */
 "XXGJUSTHHANQT4" = "%@及%@的組員";
-
-/* {{number of days}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 days}}'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT5" = "%@天";
-
-/* Label text below navbar button, embeds {{number of days}}. Must be very short, like 1 or 2 characters, The space is intentionally omitted between the text and the embedded duration so that we get, e.g. '5d' not '5 d'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT6" = "%@d";
-
-/* {{number of hours}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 hours}}'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT7" = "%@小時";
-
-/* Label text below navbar button, embeds {{number of hours}}. Must be very short, like 1 or 2 characters, The space is intentionally omitted between the text and the embedded duration so that we get, e.g. '5h' not '5 h'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT8" = "%@h";
-
-/* {{number of minutes}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 minutes}}'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT9" = "%@分鐘";
-
-/* Label text below navbar button, embeds {{number of minutes}}. Must be very short, like 1 or 2 characters, The space is intentionally omitted between the text and the embedded duration so that we get, e.g. '5m' not '5 m'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT10" = "%@分";
-
-/* {{number of seconds}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 seconds}}'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT11" = "%@秒";
-
-/* Label text below navbar button, embeds {{number of seconds}}. Must be very short, like 1 or 2 characters, The space is intentionally omitted between the text and the embedded duration so that we get, e.g. '5s' not '5 s'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT12" = "%@s";
-
-/* {{1 day}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 day}}'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT13" = "%@天";
-
-/* {{1 hour}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 hour}}'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT14" = "%@小時";
-
-/* {{1 minute}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 minute}}'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT15" = "%@分鐘";
-
-/* {{1 week}} embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{1 week}}'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT16" = "%@週";
-
-/* {{number of weeks}}, embedded in strings, e.g. 'Alice updated disappearing messages expiration to {{5 weeks}}'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT17" = "%@週";
-
-/* Label text below navbar button, embeds {{number of weeks}}. Must be very short, like 1 or 2 characters, The space is intentionally omitted between the text and the embedded duration so that we get, e.g. '5w' not '5 w'. See other *_TIME_AMOUNT strings */
 "XXGJUSTHHANQT18" = "%@w";
-
-/* Label for the cancel button in an alert or action sheet. */
 "XXGJUSTHHANQT19" = "取消";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQT20" = "刪除";
-
-/* Pressing this button moves an archived thread from the archive back to the inbox */
 "XXGJUSTHHANQU1" = "解除封存";
-
-/* Message shown in conversation view that offers to block an unknown user. */
 "XXGJUSTHHANQU2" = "此使用者不在你的聯絡資訊名單中，是否要封鎖該使用者？";
-
-/* Displayed if for some reason we can't determine a contacts phone number *or* name */
 "XXGJUSTHHANQU3" = "未知的聯絡人";
-
-/* Label for unknown countries. */
 "XXGJUSTHHANQU4" = "未知的國家";
-
-/* Info message recorded in conversation history when local user receives an unknown message from a linked device and needs to upgrade. */
 "XXGJUSTHHANQU5" = "你的某個裝置傳送了一則無法處理或顯示的訊息，因為它使用了新的 Tmao 功能。";
-
-/* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. Embeds {{user's name or phone number}}. */
 "XXGJUSTHHANQU6" = "%@ 發送了一條無法處理或顯示的訊息，因為它使用了新的Tmao 功能。";
-
-/* Info message recorded in conversation history when local user receives an unknown message and needs to upgrade. */
 "XXGJUSTHHANQU7" = "您收到一條無法處理或顯示的消息，因為它使用了新的 Tmao 功能。";
-
-/* Label for button that lets users upgrade the app. */
 "XXGJUSTHHANQU8" = "請立即更新 Tmao ";
-
-/* Info message recorded in conversation history when local user has received an unknown unknown message from a linked device and has upgraded. */
 "XXGJUSTHHANQU9" = "已更新至最新版本的Tmao。你現在可以在裝置上接收此訊息類型。";
-
-/* Info message recorded in conversation history when local user has received an unknown message and has upgraded. Embeds {{user's name or phone number}}. */
 "XXGJUSTHHANQU10" = "你現在可以要求 %@ 重新傳送這個訊息因你已經使用最新版本的 Tmao。";
-
-/* Info message recorded in conversation history when local user has received an unknown message and has upgraded. */
 "XXGJUSTHHANQU11" = "你現在可以要求對方重新傳送這個訊息因你已經使用最新版本的 Tmao。";
-
-/* Indicates an unknown or unrecognizable value. */
 "XXGJUSTHHANQU12" = "未知";
-
-/* button title for unlinking a device */
 "XXGJUSTHHANQU13" = "取消連結";
-
-/* Alert message to confirm unlinking a device */
 "XXGJUSTHHANQU14" = "如果取消連結，本裝置將無法傳送或接收訊息了。";
-
-/* Alert title for confirming device deletion */
 "XXGJUSTHHANQU15" = "取消和「%@」的連結？";
-
-/* Label warning the user that they have been unlinked from their primary device. */
 "XXGJUSTHHANQU16" = "裝置在被連結。請將手機重新連結 Tmao 以繼續傳送訊息。";
-
-/* Alert title when unlinking device fails */
 "XXGJUSTHHANQU17" = "Tmao無法取消裝置連結";
-
-/* Label text in device manager for a device with no name */
 "XXGJUSTHHANQU18" = "未命名的裝置";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQU19" = "無法從 Tmao註銷。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQU20" = "接收到不支援的附件類型。";
-
-/* No comment provided by engineer. */
 "XXGJUSTHHANQU21" = "你的裝置不支援這項功能。";
-
-/* Title for alert indicating that group members can't be removed. */
 "XXGJUSTHHANQU22" = "你無法移除群組組員。只能讓他們自行退出，或者你可以建立一個不含該組員的新群組。";
-
-/* Title for alert indicating that group members can't be removed. */
 "XXGJUSTHHANQU23" = "不支援";
-
-/* Button to start a create pin flow from the one time splash screen that appears after upgrading */
 "XXGJUSTHHANQU24" = "建立你的 PIN 碼";
-
-/* Button to open a help document explaining more about why a PIN is required */
 "XXGJUSTHHANQU25" = "了解更多有關 PIN 碼";
-
-/* Body text for PINs migration splash screen */
 "XXGJUSTHHANQU26" = "你的註冊鎖現在稱為PIN碼，並且功能更多。 請立即更新。";
-
-/* Header for PINs migration splash screen */
 "XXGJUSTHHANQU27" = "註冊鎖 = PIN 碼";
-
-/* Body text for PINs splash screen */
 "XXGJUSTHHANQU28" = "PIN碼為你的帳戶增加了另一層級的安全性。 立即建立你的PIN碼。";
-
-/* Header for PINs splash screen */
 "XXGJUSTHHANQU29" = "介紹 PIN 碼";
-
-/* Button to open a help document explaining more about why a PIN is required */
 "XXGJUSTHHANQU30" = "我必須建立 PIN 碼嗎？";
-
-/* Message for the alert indicating that user should upgrade iOS. */
 "XXGJUSTHHANQU31" = "Tmao 將要求 iOS 10 以上才能使用。請在 \"設定\" >> \"一般\" >> \"軟體更新\" 中升級。";
-
-/* Title for the alert indicating that user should upgrade iOS. */
 "XXGJUSTHHANQU32" = "更新 iOS";
-
-/* An explanation of how usernames work on the username view. */
 "XXGJUSTHHANQU33" = "Tmao上的使用者名稱是選則性的。 如果你選擇創建使用者名稱，其他Tmao 使用者將能透過使用者名稱找到你，並在不知道你的電話號碼的情況下與你聯繫。";
-
-/* Label for the username field in the username view. */
 "XXGJUSTHHANQU34" = "使用者名稱";
-
-/* An error indicating that the supplied username contains disallowed characters. */
 "XXGJUSTHHANQU35" = "使用者名稱只能包涵a-z、0-9、及_";
-
-/* A message indicating that username lookup failed. */
 "XXGJUSTHHANQU36" = "在搜尋使用者名稱時發生錯誤，請再嘗試一次。";
-
-/* A message indicating that the given username is not a registered signal account. Embeds {{username}} */
 "XXGJUSTHHANQU37" = "%@不是 Tmao 使用者。請確認你輸入完整的使用者名稱。";
-
-/* A message indicating that the given username was not registered with signal. */
 "XXGJUSTHHANQU38" = "找不到使用者";
-
-/* The placeholder for the username text entry in the username view. */
 "XXGJUSTHHANQU39" = "輸入使用者名稱";
-
-/* A prefix appeneded to all usernames when displayed */
 "XXGJUSTHHANQU40" = "@";
-
-/* An error indicating that the supplied username cannot start with a number. */
 "XXGJUSTHHANQU41" = "使用者名稱不能以數字開頭。";
-
-/* The title for the username view. */
 "XXGJUSTHHANQU42" = "使用者名稱";
-
-/* An error indicating that the supplied username is too short. */
 "XXGJUSTHHANQU43" = "使用者名稱必須至少有4個字母。";
-
-/* An error indicating that the supplied username is in use by another user. Embeds {{requested username}}. */
 "XXGJUSTHHANQU44" = "%@已經被使用。";
-
-/* Error moessage shown when a username update fails. */
 "XXGJUSTHHANQU45" = "使用者名稱更新失敗。";
-
-/* error label near a field */
 "XXGJUSTHHANQV1" = "裝置名稱無法設為空白";
-
-/* error label near a field */
 "XXGJUSTHHANQV2" = "裝置名稱 太長";
-
-/* Format for info message indicating that the verification state was unverified on this device. Embeds {{user's name or phone number}}. */
 "XXGJUSTHHANQV3" = "你已將 %@標示為未驗證。";
-
-/* Format for info message indicating that the verification state was unverified on another device. Embeds {{user's name or phone number}}. */
 "XXGJUSTHHANQV4" = "你已在其他裝置將 %@標記為未認證。";
-
-/* Format for info message indicating that the verification state was verified on this device. Embeds {{user's name or phone number}}. */
 "XXGJUSTHHANQV5" = "你已將 %@標示為已驗證。";
-
-/* Format for info message indicating that the verification state was verified on another device. Embeds {{user's name or phone number}}. */
 "XXGJUSTHHANQV6" = "你已在其他裝置將 %@標記為已驗證。";
-
-/* Generic message indicating that verification state changed for a given user. */
 "XXGJUSTHHANQV7" = "驗證狀態已改變。";
-
-/* Label for button or row which allows users to verify the safety number of another user. */
 "XXGJUSTHHANQV8" = "檢視安全碼";
-
-/* Label for button or row which allows users to verify the safety numbers of multiple users. */
 "XXGJUSTHHANQV9" = "檢查安全碼";
-
-/* Toast alert text shown when tapping on a view-once message that has already been viewed. */
 "XXGJUSTHHANQV10" = "你已經看過這個訊息。";
-
-/* Tooltip highlighting the view once messages button. */
 "XXGJUSTHHANQV12" = "點擊此處使該訊息在查看後消失。";
-
-/* Toast alert text shown when tapping on a view-once message that you have sent. */
 "XXGJUSTHHANQV13" = "一次性媒體檔案在傳送後會自動刪除。";
-
-/* Indicates how to cancel a voice message. */
 "XXGJUSTHHANQV14" = "滑動以取消";
-
-/* Message for the alert indicating the 'voice message' needs to be held to be held down to record. */
 "XXGJUSTHHANQV15" = "按住不放來錄製語音訊息。";
-
-/* Activity indicator title, shown upon returning to the device manager, until you complete the provisioning process on desktop */
 "XXGJUSTHHANQW1" = "Tmao 電腦版安裝成功。";
-
-/* Info Message when you disable disappearing messages */
 "XXGJUSTHHANQY1" = "你關閉了自動銷毀訊息的功能。";
-
-/* Info message embedding a {{time amount}}, see the *_TIME_AMOUNT strings for context. */
 "XXGJUSTHHANQY2" = "訊息銷毀時間設置為%@。";
+"XXGJUSTHHANQTabar1" = "對話";
+"XXGJUSTHHANQTabar2" = "通訊錄";
+"XXGJUSTHHANQTabar3" = "發現";
+"XXGJUSTHHANQTabar4" = "我";
